@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:14.18
+    container_name: flowise_db
+    environment:
+      TZ: America/Argentina/Ushuaia
+      POSTGRES_PASSWORD: ${PASSWORD_DB} # Si se explicita acá, no lo ponemos en el script
+      POSTGRES_USER: ${USERNAME_DB} # Si se explicita acá, no lo ponemos en el script
+      POSTGRES_DB: ${POSTGRES_DB}
+    deploy:
+      resources:
+        limits:
+          memory: 100M # Limita a 100MB máximo de RAM
+    restart: always
+    ports:
+      - "3711:5432"
+    volumes:
+      - flowise:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${USERNAME_DB} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: 
+      - flowise_default
+    hostname: flowise_db # El nombre con el que aparace en la red principal
+
+volumes:
+  flowise:
+
+networks:
+  flowise_default:
+    external: true

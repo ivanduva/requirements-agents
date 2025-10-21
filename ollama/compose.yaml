@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    networks:
+      - flowise_default
+    hostname: ollama
+
+volumes:
+  ollama:
+
+networks:
+  flowise_default:
+    external: true
