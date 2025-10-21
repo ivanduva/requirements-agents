@@ -1,0 +1,589 @@
+Cliente: Una compra en un mayorista en Buenos Aires.
+
+Entrevistador 1: Ajá, ok, bien. Es para cualquier persona, no es para un grupo de necesidad, para un grupo de vulnerables, no es para cualquier persona en la ciudad de Ushuaia.
+
+Cliente: Sí. Y la, la restricción que tengo, porque vivo en Ushuaia, es que mi tamaño de caja es fijo, en función de lo que puede entrar en un palio.
+
+Entrevistador 1: Ajá.
+
+Cliente: Son cajas de cincuenta por sesenta por cincuenta.
+
+Entrevistador 1: ¿El proveedor manda en esas cajas o desde acá se distribuyen esas cajas?
+
+Cliente: No, el proveedor lo carga en esas cajas.
+
+Entrevistador 1: Los carga en cajas de cincuenta por sesenta-
+
+Cliente: Esto-- acá hay un convenio entre, eh, la gente que opera la aplicación acá y un mayorista en Buenos Aires.
+
+Entrevistador 1: La idea es que ese mayorista traiga acá y ustedes fraccionan, dividen y reparten.
+
+Cliente: No.
+
+Entrevistador 1: No.
+
+Cliente: El mayorista arma las cajas en Buenos Aires, las pone en pallets y manda el contenedor con las cajas. Y a ca-- cada caja tiene el nombre del destinatario.
+
+Entrevistador 1: Ah, bien.
+
+Cliente: Y entonces, el destinatario, o sea, llega acá y en un galpón, o bien se entrega en la casa del destinatario o el destinatario va y retira la caja del, del lugar de llegada, digamos.
+
+Entrevistador 2: En la sucursal.
+
+Entrevistador 1: Me imagino ahí, ¿no?
+
+Entrevistador 2: Eh, y... Claro, como todavía no está representado... Pero, digamos, aunque no esté representado en el sistema, desde tu perspectiva, eh, ¿cuál es la mayor, la mayor dificultad que puede presentar, por ejemplo? Ah, la logística, básicamente habíamos dicho, ¿no?
+
+Cliente: Es-- esa es la, la mayor oportunidad de ahorro, digamos. Porque la idea es tener un contenedor lleno.
+
+Entrevistador 2: Eso, el tema del volumen.
+
+Cliente: La cordi-- la, la, la dificultad que está en juntar suficiente gente para llenar un contenedor en un tiempo razonable.
+
+Entrevistador 1: El envío sería una vez que el contenedor esté lleno.
+
+Cliente: Sí.
+
+Entrevistador 1: Y el proveedor, la parte de armando la caja y eso está todo resuelto.
+
+Cliente: Sí, supongamos que sí. Es un convenio que yo tengo, el, el mayorista, eh, a cambio de tener más clientes cautivos, volumen, se ocupa de armar las cajas, ponerlas en pallets y después las manda en un-- en un contenedor.
+
+Entrevistador 1: Y ya mandar. Bien. Bueno, teníamos una idea distinta.
+
+Entrevistador 2: Respecto al sistema, en la parte de usuarios, ¿no? ¿Cómo se validan los compradores? Eh, ¿son usuarios que ingresan a la plataforma?
+
+Cliente: Sí.
+
+Entrevistador 2: Eh, ¿hay que tener algún tipo de conocimiento?
+
+Cliente: Eh... Cargarán su email, su teléfono.
+
+Entrevistador 2: Okey. ¿Ningún sistema de seguridad?
+
+Cliente: ¿Como cuál?
+
+Entrevistador 1: Verificación del DNI con la persona que se registra.
+
+Entrevistador 2: Claro, biométricos...
+
+Cliente: Eh, no, no, verificación de que le llegue un email y que confirme que es su email, digamos.
+
+Entrevistador 1: Bien, perfecto. Eh... bien, eh...
+
+Entrevistador 2: Pasamos con la parte de catálogo. Habíamos hecho distintas estructuras para eso. Respecto a los catálogos.
+
+Cliente: Sí.
+
+Entrevistador 2: Existe una idea-
+
+Entrevistador 1: Es el catálogo del proveedor.
+
+Entrevistador 2: Claro, ese catálogo.
+
+Cliente: Es un catálogo que, que se arma entre el mayorista y el, el operador, digamos, ¿no? Que se van a definir qué productos van a estar en oferta. No va a ser todo el, todo el catálogo del mayorista. Vamos a elegir alguno, digamos.
+
+Entrevistador 1: Ok.
+
+Cliente: Este, y sí, tiene que estar el nombre del producto, el peso, precio, las reseñas, porque vamos a generar reseñas.
+
+Entrevistador 2: O sea, va a haber una valorización de...
+
+Cliente: Sí.
+
+Entrevistador 2: Perfecto. Eh, respecto a eso del catálogo, entonces, ¿cambiaría con frecuencia según stock o...?
+
+Cliente: Puede cambiar, sí. O sea, yo entro hoy y está un producto y entro mañana y no está el producto.
+
+Entrevistador 1: Y podés sumar productos nuevos.
+
+Cliente: Pueden aparecer productos nuevos, sí, sí, sí.
+
+Entrevistador 2: ¿Cómo se calcula el tema del, eh, los costos, por ejemplo? ¿Hay algún mínimo?
+
+Cliente: No, hay un costo mínimo de envío, que es el-- la caja. Si yo quiero traer una caja vacía, pago el envío de la caja nada más. Es ridículo. O si quiero poner una latita de agua tónica en la caja, bo-- problema tuyo, vos tenés que pagar la caja. Y la idea es que el sistema consolide para aprovechar al máximo el volumen de la caja, digamos. Y que te vaya diciendo a medida que vos vas cargando, llenaste el cuarenta por ciento, llenaste el cincuenta, llenaste la caja.
+
+Entrevistador 1: Bien, entonces con el volumen del producto se calcula qué porcentaje ocupa de la caja.
+
+Cliente: Sí.
+
+Entrevistador 1: Y los productos que sean más grandes que la caja no van a figurar.
+
+Cliente: No van a-- no se van a ofrecer.
+
+Entrevistador 1: Directamente no se ofrece ninguno. No hay excepciones.
+
+Cliente: No, no, no.
+
+Entrevistador 1: Bien.
+
+Entrevistador 2: Siguiendo por acá, por los pedidos, ¿cómo es el seguimiento de estado, eh, una vez que el, el, el, el cliente decide comprarlo?
+
+Cliente: Sí, había acá como cuatro estados, si no recuerdo mal: en preparación, en tránsito, en Ushuaia y entregado. Eh... Bueno, una vez que el cliente hizo la compra y esa información le llega al mayorista, en ese momento entra en preparación, ¿no?
+
+Entrevistador 1: Sí.
+
+Cliente: Después, en tránsito es cuando, cuando se llenó el contenedor y está, está saliendo, digamos. Cuando llega acá, es otro, otro aviso. Cada cambio de estado... y el último es entregado, ¿no?
+
+Entrevistador 1: Bien, entregado sería entregado a la sede de acá y no al comprador individual.
+
+Cliente: No, eh, en Ushuaia es un estado y el otro es entregado.
+
+Entrevistador 1: Ah, claro, en Ushuaia es cuando llegó.
+
+Cliente: Llegó y la otra es ya lo tenés.
+
+Entrevistador 1: Eh... Bien.¿hay un límite máximo de tiempo? Por ejemplo, si el contenedor no se llenó en treinta días, ¿sale como está o si, o si hay que esperar a, a, a que esté el contenedor completo?
+
+Entrevistador 2: Claro, completo o parcial.
+
+Cliente: Bueno, hay, hay distintos tamaños de contenedores. Está el contenedor grande, el contenedor chico, eh...
+
+Entrevistador 1: Sí, de seis o de doce, ¿verdad?
+
+Cliente: Sí. Por ahora, vamos a ponernos en optimistas y que, este, el contenedor sale cuando se llena.
+
+Entrevistador 1: Sale cuando se llena. Bien.
+
+Cliente: Si no se llenó en cuatro meses, cerramos, bajamos las cortinas (risas) , cambiamos a otras cosas (risas) .
+
+Entrevistador 1: En cuatro meses sí llegamos a terminar el proyecto (risas) . Si no lo cambiás en dos meses, fin (risas) . Bueno, bien. Y el envío acá sería a, a cargo del, este, ¿cómo le llamaste a la persona, al nexo? El... operador. Sería a cargo del operador de acá?
+
+Cliente: Sí, bueno, ahí-
+
+Entrevistador 1: ¿Tienen una flota, tienen...?
+
+Cliente: Habría un costo adicional, digamos. Si vos lo vas a buscar al galpón, es un costo. Si querés que te lo llevemos, es otro costo.
+
+Entrevistador 1: Entonces, hay dos modos: con retiro o... o con envío al domicilio.
+
+Cliente: Sí.
+
+Entrevistador 1: Y acá, ¿cuenta una flota de vehículos va a ser la repartición? ¿Es un solo vehículo? ¿Sale también lleno? ¿Salen y bien llegan las cajas?
+
+Cliente: No, eso, eh, eh, tenemos un... Imaginate que tenemos un Mercedes, ¿cómo se llaman esos? Los...
+
+Entrevistador 1: ¿Las Sprinter? Una de esas.
+
+Cliente: Unas Sprinter y repartimos. No, no se hagan problema por eso (ríe) . Eso va a quedar reflejado en el costo que pague el cliente por recibirlo en su casa, que no sabemos cuánto es.
+
+Entrevistador 1: O sea, llega la caja, se cargan todas las que son con envío y sale.
+
+Cliente: Claro.
+
+Entrevistador 1: Y si faltó lugar, se vuelve, se cargan y sale de nuevo.
+
+Cliente: Sí, sí. A lo mejor se, se agrupa por zonas geográficas, vamos todos para la C cuarenta, todo para el Pipo.
+
+Entrevistador 1: Claro, eso era para ver si manejamos eso también, de, de agrupar domicilio o, o-
+
+Cliente: No, no, no, no. Esa parte de la logística local no la, no la cubrimos.
+
+Entrevistador 1: Bien.
+
+Entrevistador 2: O sea que, por ejemplo-
+
+Entrevistador 1: Lo dejamos como un módulo a agregar, porque podría estar interesante.
+
+Cliente: Exactamente, sí.
+
+Entrevistador 2: Sí, justo íbamos a preguntar el tema de cuáles son como los problemas logísticos más comunes que enfrentamos al estar acá, digamos, el clima, la aduana, eh, ¿algún otro tipo de costos de buenas?
+
+Cliente: El problema de la aduana es pa-para salir, me parece, no tanto para entrar.
+
+Entrevistador 2: Claro, no tanto para entrar. Perfecto. Lo siento, saltamos-
+
+Cliente: Y problemas de clima, vamos a tener un galpón para hacer la, la descarga del contenedor. No debería ser un problema. Salvo, bueno, que se corte la ruta por nieve, ponele.
+
+Entrevistador 1: Claro, o algún día que las calles estén intransitables, pasará uno...
+
+Cliente: Sí.
+
+Entrevistador 2: Eh, me he saltado una pregunta, eh, sumamente importante. ¿Quiénes son los actores que participan, eh, y me re-- en cada etapa? Digamos, tenemos proveedores, tenemos compra, tenemos...
+
+Cliente: Sí. Y el proveedor es el que, y este proveedor, junto con el operador del sistema, es que define la lista de bienes que te van a ofrecer, la lista de productos, con los precios, ¿no?
+
+Entrevistador 1: Eh, ¿y luego?
+
+Entrevistador 2: ¿El transporte?
+
+Entrevistador 1: Una vez que llegue acá, bueno, eh, al operador que lo recibe, ¿es el, la misma persona que lo reparte? ¿O es alguien distinto?
+
+Cliente: No, el, eso está a cargo de la misma empresa, digamos. La empresa que opera esto tiene su galpón.
+
+Entrevistador 1: Ah, el operador lo toma con una empresa entera.
+
+Cliente: Recibe, descarga el, el contenedor y reparte. Eso, eso lo hace la misma empresa.
+
+Entrevistador 1: Entonces, tenemos proveedor, operador y cliente.
+
+Entrevistador 2: Perfecto. ¿Y el transporte se encarga acá y es como...?
+
+Cliente: Y el, el transporte es... Te contaba, el transporte está ahí.
+
+Entrevistador 1: Está en tercer. Esto es todo de, eh, a, a cuenta del operador ya.
+
+Cliente: O sea, aquí estaría el mayorista.
+
+Entrevistador 1: Sí.
+
+Cliente: El operador, el cliente. Y el operador se carga de la distribución local.
+
+Entrevistador 1: El operador, eh, perdón, el proveedor no va a participar en el sistema, ¿verdad? No va a cargar sus productos, no va a tener participación en el...
+
+Cliente: Eh, sí, el proveedor tiene un rol importante. Es como un aliado estratégico, digamos.
+
+Entrevistador 1: No lo hace a través del operador, sino que ellos mismos van a estar-
+
+Cliente: Ellos van a tener acceso, sí.
+
+Entrevistador 1: Ellos necesitan acceso, sí. Entonces, necesitamos acceso para todos, para el proveedor, para el operador y para el cliente. Bueno, bien, así creo que ya pasamos todo.
+
+Entrevistador 2: Pasamos a pagos y reclamos, ¿te parece? (carraspea) ¿Cuáles son los medios más utilizados de pago? Débito, transferencia...
+
+Cliente: Tarjeta de crédito, tarjeta de débito. Transferencia por ahora no.
+
+Entrevistador 2: Por ahora no.
+
+Entrevistador 1: Transferencia no. ¿Contra envío, contra reembolso tampoco?
+
+Entrevistador 2: Ah, ¿y con rechazos?
+
+Cliente: Eh, no, no, es cuando vos hacés el pedido, se paga.
+
+Entrevistador 1: Se paga ahí. Se paga al momento con tarjeta de crédito o débito, exclusivamente. ¿Rechazo de pago?
+
+Entrevistador 2: No, estaba por preguntar si deberíamos contemplar el tema del pago en cuotas entonces, pero si tenemos crédito...
+
+Entrevistador 1: Sí, eso se arregla con la tarjeta de crédito.
+
+Entrevistador 2: Claro, tipo Naranja.
+
+Entrevistador 1: Claro, ahora sí, claro.
+
+Entrevistador 2: Eh, ¿puede...?
+
+Cliente: En principio, hacer compras así, de supermercado, digamos, es en un pago. Salvo que hagamos alguna operación, aniversario, pero por ahora no.
+
+Entrevistador 1: Por ahora, está bien.
+
+Entrevistador 2: ¿Y se puede hacer cancelación? ¿Se puede cancelar una compra?
+
+Cliente: Sí, tres días dijimos. Tenés tres días para cancelar.
+
+Entrevistador 2: Tres días para cancelar, perfecto. Y en caso de que se cancelara, ¿se maneja un reembolso?
+
+Cliente: Sí, como...
+
+Entrevistador 1: ¿Cien por ciento? ¿Al menos hay una penalidad de pelo, no? ¿Cien por ciento de reembolso?
+
+Cliente: Sí, hay que darle confianza.
+
+Entrevistador 1: (ríe) ¿Y tienen un máximo de pedido que pueda hacer o no?
+
+Cliente: Eh, no.
+
+Entrevistador 1: ¿Así acá, ahí?Tenemos una caja. Tenemos una caja.
+
+Entrevistador 2: La confirmación de pago, ¿cómo la realizamos? O sea, ¿el sistema autentifica que se haya acreditado con débito o crédito y...?
+
+Entrevistador 1: Sí, ya está.
+
+Entrevistador 2: Ya está. Nada manual. Nada de pasar la boleta.
+
+Cliente: Bueno, el mayorista tiene tiene que mandar la factura por email al comprador. Porque el que factura es el mayorista.
+
+Entrevistador 1: O sea, se factura por pedido, no por camión total.
+
+Cliente: Se factura por pedido.
+
+Entrevistador 1: Por pedido individual, o sea que...
+
+Cliente: La relación es entre el comprador micro de acá y el mayorista de allá.
+
+Entrevistador 1: Claro. Entonces, necesitamos que te hacer un QI, un DNI y una condición francelibre.
+
+Cliente: Claro, o consumidor final, algo así.
+
+Entrevistador 1: Un tipo de factura que elija. La comunicación con los compradores? O sea, el cliente con el proveedor se comunica solo a través de la aplicación o hay una comunicación por teléfono, WhatsApp?
+
+Cliente: El cliente...
+
+Entrevistador 1: Seguramente el seguimiento.
+
+Cliente: Con la aplicación se comunica o con el operador, el cliente se comunica con el operador.
+
+Entrevistador 1: ¿y de qué manera se comunica con el operador? A través del sistema, y aparte hay otro tipo de comunicación, tipo WhatsApp, tipo de uso.
+
+Cliente: A través de la aplicación.
+
+Entrevistador 1: A través de la aplicación y del mundo. Charco.
+
+Cliente: Que más que nada va a ser en la etapa de reclamo, por ahí. Decíamos: Bueno, pedí este producto y no estaba en la caja, o: Me llegó este producto que no pedí, o: Me llegó este producto que pedí, pero la calidad no es buena. O sea, tres cosas que se me recurrieron para hacer la reclamación.
+
+Entrevistador 1: Y consulta, puede haber esto está de 120, no tengo 150. Como ese tipo no se atiende.
+
+Cliente: No, tiene que ser algo muy esquemático y... Claro. Sino, es un mayorista el otro.
+
+Entrevistador 1: Sí, sí, no lo entiendo, pero si el cliente a veces no...
+
+Cliente: Entonces... Esto es como complementario. Hay que seguir haciendo las compras en el almacén, en el supermercado, pero eso es un complemento.
+
+Entrevistador 1: Sí, llega a la base y después uno compra...
+
+Entrevistador 2: Ya tenemos lo de los canales que preste nuestro cliente. Tenemos un.
+
+Entrevistador 1: Par de preguntas para cómo está funcionando actualmente, pero...
+
+Entrevistador 2: Claro, hay que pasarlas.
+
+Entrevistador 1: Pensamos que era algo más...
+
+Cliente: Más consolidado. Lo arreglaría.
+
+Entrevistador 1: Sí, algo que estaba funcionando.
+
+Entrevistador 2: Esta es una pregunta que me parece importante. ¿Quién controla internamente los pagos, el stock, la logística, los reclamos? Hablamos de nuestro operador, vuestro operador.
+
+Cliente: Los pagos...
+
+Entrevistador 2: Los pagos, stock, logística.
+
+Entrevistador 1: Los pagos del proveedor que hace la factura.
+
+Entrevistador 2: Los pagos del proveedor.
+
+Cliente: Sí.
+
+Entrevistador 2: El stock, la mayorista.
+
+Cliente: También, el proveedor.
+
+Entrevistador 1: El proveedor también. Bien. La logística sería acá y los reclamos será acá el operador, ¿verdad?
+
+Cliente: Sí, y los reclamos lo maneja el operador.
+
+Entrevistador 1: El operador. Buenísimo.
+
+Cliente: Que se comunicará con el proveedor.
+
+Entrevistador 1: Sí, ahí depende del reclamo.
+
+Entrevistador 2: ¿existe actualmente o crees que podría considerarse importante tener en cuenta regulaciones normativas de AFIP, aduana, impuestos, algo que tengamos que considerar al momento de realizar el sistema?
+
+Cliente: No. Yo sé que se hace... Bueno, hay una guía de removido porque estas cosas no van a pagar IVA.
+
+Entrevistador 1: No, está bien. Está bien.
+
+Cliente: Entonces, lo que hay que hacer...
+
+Entrevistador 1: Es lo que viene en el camión, la guía de removido.
+
+Cliente: Viene el camión con la guía de removido y ese es el documento que le permite al mayorista no pagar IVA.
+
+Entrevistador 1: Bien, entonces vamos a agregar para que quede asentado. El camión viene con la guía y está la vista que ve, que es lo que pones. ¿Sí, lo podés meter ahí?
+
+Entrevistador 2: ¿Qué sucedería en caso de que un proveedor no cumpliera con los plazos o, por ejemplo, hubiera fallas en el producto?
+
+Cliente: Bueno, eso lo va a manejar localmente el operador.
+
+Entrevistador 1: Y si el proveedor lo maneja todo responsabilista.
+
+Cliente: A última, si hubiera algún problema, se hará un reintegro de lo que se pagó. Suponete que se ha aborto un viaje, se le devuelve el dinero.
+
+Entrevistador 1: Se le devuelve el dinero.
+
+Entrevistador 2: Tenía una duda con el tema de los proveedores, pero creo que la voy a armar en un momento. ¿Qué métricas o reportes te serían útiles, más útiles? Por ejemplo, ventas, tiempo de entrega, satisfacción.
+
+Cliente: Sí, todo eso. Y además, nivel de avance de carga del contenedor. ¿Hasta qué porcentaje llevo completado? Bien. Y a este ritmo, ¿cuánto tardaría en llenarlo?
+
+Entrevistador 1: Y en cuánto...
+
+Cliente: Y en cuento de despacho también. Va a haber un cronograma estimado, cómo viene este contenedor con respecto a los plazos. Reclamos, ya dije. Reclamos también.
+
+Entrevistador 2: Reclamos como métrica de reporte.
+
+Entrevistador 1: Habías dicho también las reseñas.
+
+Cliente: Y las reseñas había dicho yo.
+
+Entrevistador 1: Preguntando lo mismo, pero en cuanto a un historial o estadística para poder consultar.Los productos a agregar y sacar, y toda esa parte de marketing también lo, lo, lo incluiría.
+
+Cliente: Está mirando acá historial de compras y reseña de productos (pausa de dos segundos) . Tener una, una estadística de, de, de-- sí, claro. De las peores reseñas, de las mejores reseñas...
+
+Entrevistador 1: Y en cuanto a facturación, producto más vendido, producto que da más ganancia, eh, producto que más veces falla, ese tipo de estadísticas, ¿convendría grabarlas?
+
+Cliente: Eeeh... (pausa de cuatro segundos) Lo que pasa es que... Claro, mmm, no está claro acá todavía. Eh, fíjese qué, qué, qué nivel embrionario que está esto, ¿no? Que... Bueno, ¿dónde está la ganancia del operador? En el costo del envío, imagino, porque ahí está el tema de consolidación, porque la venta la hace-- salvo que, bueno, yo obtendré alguna comisión con el mayorista.
+
+Entrevistador 1: Puede ser una comisión del mayorista...
+
+Cliente: Por ejemplo. Y además, en el costo del envío va a estar incluido el costo de, de la logística y la ganancia del operador, claro.
+
+Entrevistador 1: Bien.
+
+Cliente: Que es donde gana el, el minorista, digamos, acá. Sí. No, no me acuerdo cuál era la pregunta que me habían hecho.
+
+Entrevistador 1: Para poder proyectar a futuro si agregar productos nuevos, si, eh, reforzar alguno o hacer publicidad en radio sobre tal producto, ver un historial de- Qué productos facturan más, qué productos tienen más margen de ganancia o, o cuáles van casi al costo, cuáles vienen pasados-
+
+Cliente: Estaría bueno que los clientes pudieran sugerir productos que no, sino que mira: ne-ne-- este producto que me interesaba no lo encontré.
+
+Entrevistador 1: Ah, ok.
+
+Cliente: Eso estaría bueno.
+
+Entrevistador 1: Eso sería parte capaz de, eh, de parte del usuario.
+
+Cliente: Sí.
+
+Entrevistador 1: Pero de parte del operador, que es el que gana la comisión y que con los envíos grandes, eh, eh, ¿no hay interés en, en tener...? O, insisto un poquito porque a mí me parece interesante, pero entiendo que no se necesite un historial ...
+
+Cliente: No, estaba pensando si, si hay productos que, que dejen más dinero que otros para el operador, digamos, ¿no?
+
+Entrevistador 1: Claro.
+
+Cliente: Porque en realidad, eh, el operador gana por caja enviada, contenido y después por comisión. Sí, bueno, claro, los productos más caros por unidad de volumen son los que más-
+
+Entrevistador 1: Ganancia generan.
+
+Cliente: Rentabilidad dejarían.
+
+Entrevistador 1: Claro. Despu-- Después se me ocurre, también puede ser que haya un producto que vende mucho en las cajas, que vienen con un ochenta por ciento de las cajas vienen con su producto, sería más que hay que, a tomar en cuenta para futuras decisiones, mandar también solo ese producto y que ahora las cajas vengan con otras cosas para liberar más espacio...
+
+Cliente: Bueno, el, el tema es que no, no, no quiero hacer logística local.
+
+Entrevistador 1: Bien, claro.
+
+Cliente: Porque ahí ya me podría competir con la anónima.
+
+Entrevistador 1: Sí.
+
+Cliente: Entonces, no tiene...
+
+Entrevistador 1: Bien.
+
+Cliente: Por lo menos en esta etapa, eh, no.
+
+Entrevistador 1: Bien (pausa de cuatro segundos) . Ahí, ahí... (...) .
+
+Entrevistador 3: ¿Cómo creerías o cómo te...? Sí, ¿cómo creerías, te darías cuenta que el software ha cumplido con su propósito, que tus necesidades han sido satisfechas? Además de la eficiencia logística, como habíamos dicho antes, que...
+
+Cliente: Es muy básico que no haya problemas, sería mi respuesta.
+
+Entrevistador 3: Excelente respuesta.
+
+Cliente: Pero no, no se me ocurre... (pausa de cuatro segundos)
+
+Entrevistador 1: Sí, que sea amigable, intuitivo, esas cosas, ¿no?
+
+Entrevistador 3: Ah, no preguntamos mucho de la interfaz.
+
+Cliente: Ah, bueno, claro. Se podría hacer también una, un f-- que, que el usuario dé feedback sobre la interfaz.
+
+Entrevistador 3: Okey.
+
+Entrevistador 1: O sea, reseña del producto y, pues, reseña de la experiencia de compra.
+
+Cliente: Claro, exactamente, exactamente. Qué tal los productos cuando llegan, qué tal la experiencia de compra. Eso digo.
+
+Entrevistador 1: Bien. A ver. (pausa de tres segundos) (...) . Hay alguna alimentación de usuario por e-- el usuario o, o por ejemplo, una extensión, alguien me puede contar el nombre de otra persona. Este, de, de la abuela...
+
+Cliente: Eh, salió en otra, en otro grupo que yo puedo tener distintas direcciones dentro de la... Entonces-
+
+Entrevistador 1: Ah, bien.
+
+Cliente: Puedo cargar varias direcciones. Esta caja se la mandás a mi mamá, la pago yo.
+
+Entrevistador 1: Sí, y diferentes personas que reciban.
+
+Cliente: Claro.
+
+Entrevistador 2: En cuanto al entorno, ¿prefieres que se vea por plataforma web, tipo celular, computadoras, tablets? O te es indiferente o te gustan todas.
+
+Cliente: Eh... habíamos dicho con otros equipos hacerlo solo por celular (pausa de cuatro segundos) .
+
+Entrevistador 1: La más difícil (ríe) .
+
+Cliente: ¿Sí? La más difícil. Ah, bueno, está bien.
+
+Entrevistador 1: Lo hacemos multiplataforma, en combo (ríe) .
+
+Cliente: ¿Es más fácil en multiplataforma?
+
+Entrevistador 1: Sí.
+
+Cliente: ¿Sí?
+
+Entrevistador 1: Sí, porque ya vienen los, los modelos... Claro, vos lo hacés en una plataforma y a, automáticamente traduce tablet o móvil.
+
+Cliente: Bueno, pero entonces, eh, usemos eso, que lo usa todo el mundo.
+
+Entrevistador 1: Sí, es mejor.
+
+Cliente: Sí. Yo es más dec-- decía que solo, solo el celular, suponiendo desde mi ignorancia que era más fácil.
+
+Entrevistador 1: Claro.
+
+Cliente: Pero...
+
+Entrevistador 1: En realidad, lo que necesitarían es que en el celular sí o sí esté.
+
+Cliente: Claaaro, claro. Ok.
+
+Entrevistador 1: Porque ya que estamos, lo hacemos multiplataforma.
+
+Cliente: Bien, bien, bien.
+
+Entrevistador 1: Está. No, esto... (pausa de dos segundos) Eh, ¿algún pedido específico para el software, además de todo lo que charlamos?
+
+Cliente: ¿como qué, por ejemplo? (ruido desconocido de fondo)
+
+Entrevistador 2: ¿te gustaría que actuara de alguna manera? Que... el tiempo de respuesta, que... la pareja.
+
+Cliente: No, esas, esas son cosas que surgen con el uso. En esta etapa no se los pide nada. Pero lo del multiplataforma está bueno porque es curiosamente más versátil y más fácil de hacer. Entonces, se lo voy a pasar a los otros. A los otros equis. Para que tengan todos las mismas consignas, más o menos.
+
+Entrevistador 1: (risas) Bueno, entonces con esto estaríamos. Eh... no sé si tienen alguna pregunta más. (ruido desconocido) Creo que no hay de ahí.
+
+Cliente: Idiomas, tal vez. De cada... No, bueno, ahora solo español. ?????
+
+Entrevistador 1: De los requerimientos que decía Dani es, por ejemplo, que, que fuera en tres clics a terminar la compra o algún tipo así de orientación del programa, tipo que sea recontra fácil de usar o recontra completo, o bien técnico o...
+
+Cliente: Fácil de usar.
+
+Entrevistador 1: Fácil de usar tiene que ser la prioridad.
+
+Cliente: Sí. (ruido desconocido)
+
+Entrevistador 1: Bueno, con esto ya estaría.
+
+Cliente: Bien.
+
+Entrevistador 1: Por suerte vamos a hacer una segunda entrevista.
+
+Cliente: Sí, sí.
+
+Entrevistador 1: Así que ahí va. (ríe)
+
+Entrevistador 2: Así que han quedado sueltos...
+
+Entrevistador 1: Vamos a traer toda la... lo que nos quede pendiente.
+
+Cliente: Bien, bien. (rastrillo)
+
+Entrevistador 1: ¿Y algún plazo?
+
+Cliente: ¿Para hacer esto? Sí, de la materia, digamos. No, no, no es que estoy esperando esto para lanzar el proyecto, no, no.
+
+Entrevistador 1: ¿Y el porcentaje para los desarrolladores?
+
+Entrevistador 2: Claro. (ríe)
+
+Cliente: El ochenta por ciento de cero. (ríe)
+
+Entrevistador 1: Había empezado bien, ese ochenta por ciento, después se hundió.
+
+Cliente: Demasiado bueno para ser cierto.
+
+Entrevistador 1: Bueno, con esto estaríamos. Te agradezco mucho.
+
+Cliente: Bueno, un placer, ¿eh?
+
+Entrevistador 1: Esperemos la próxima que pueda venir Cristian también. (rastrillo)

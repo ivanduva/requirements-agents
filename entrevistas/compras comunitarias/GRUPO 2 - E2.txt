@@ -1,0 +1,387 @@
+Cliente: Esos estándares normales del negocio.
+
+Entrevistador 1: Prefieres dejarlo a tu criterio. Perfecto, gracias.
+
+Entrevistador 2: Me decís a mí, usuarios, tres segundos me pareció mucho, porque son tres segundos más lo que demora Internet. Exactamente. Pero no sé de qué depende, porque no sé qué pasa una vez que uno hace clic, no sé qué pasa. Sé que hay algunas rutinas que son más rápidas que otras, que según cómo uno lo diseña, tarda más o tarda menos el proceso. Tres segundos sería un máximo.
+
+Entrevistador 1: Tres segundos sería un máximo. De hecho, está contemplado como el máximo. Claro. También teníamos esta cuestión de los colores. Habíamos pensado proponerte una paleta de colores entre, obviamente, relacionado al ámbito alimento marrón, rojo, verde, todo ser el mismo tono.
+
+Entrevistador 2: Me encanta. Perfecto.
+
+Entrevistador 1: Luego, en base a la usuario y contraseña como acceso, ¿habíamos dicho algo?
+
+Cliente: Y mail y contraseña. Sí, mail y contraseña.
+
+Entrevistador 1: Una doble autenticación. Sí, autenticación no es conveniente. No, en el sentido- Código del celular, ese tipo para confirmaciones de compra. Un toque.
+
+Entrevistador 2: No hace falta tanta seguridad.
+
+Cliente: No, porque... Bueno, en realidad alguien podría hackear mi cuenta y hacer una compra, pero... Claro, y usar mi tarjeta. Pero el acceso a la tarjeta sí estaba. Siempre te piden el código de seguridad.
+
+Entrevistador 2: Sí, eso sí. En cuestiones de acceso de usuarios es con autenticación en dos pasos o al momento de comprar cuando se va a comprar también requerir autenticarse de nuevo por si alguien dejó una lesión abierta, ese tipo de cuestiones de seguridad. Requiere unos niveles altos o un nivel de e-shop normal. Normal, normal.
+
+Entrevistador 1: De todas formas, usaríamos distintos protocolos que van a estar redactados en la documentación que justamente evitan el, digámosle, traspaso de información. Que se pueda ver el mail y la contraseña como suele suceder para... Okey. Habíamos propuesto también esto de el sistema de proteger la información del usuario con encriptación de extremo a extremo, estilo WhatsApp. Y el sistema, esto también era una consulta, debe cerrar la sesión del usuario de manera automática luego de 10, 15, 30 minutos de inactividad.
+
+Cliente: Sí, yo te diría 5 minutos.
+
+Entrevistador 1: 5 minutos de inactividad. Habíamos pensado también en esto de que realizar un IP. Esto más bien es una sugerencia, de que quede reservado en algún lugar de la caché, en algún espacio de la memoria, como los productos que, por ejemplo, había seleccionado, pero se cortó Internet, se apagó la compu, entonces la página va a mantener como el historial de la compra que el usuario había iniciado. La interfaz debe ser intuitiva, fácil de usar, lo charlamos. El sistema debe funcionar en distintos...
+
+Cliente: Es gente así, como yo, digamos, sin ideas, ¿no?
+
+Entrevistador 1: Por lo que muy intuitiva. Sí. El sistema debe funcionar en distintos sistemas, Android, iOS o también distintos navegadores, Chrome, Safari, Firefox. Habíamos visto también esto de dónde sería que se va a almacenar, cuándo se va a guardar el sistema, ¿en una nube?
+
+Entrevistador 2: Es un sistema online, los servidores van a estar en el depósito.
+
+Entrevistador 1: Servidor privado interno.
+
+Entrevistador 2: Quieren hacerlo como un servicio online.
+
+Cliente: ¿ustedes me recomiendan algo en particular?
+
+Entrevistador 1: En base a la experiencia de nuestra empresa?
+
+Cliente: Sí.
+
+Entrevistador 2: Servicio online. ¿Cómo? Contratar los servicios y pagar un gasto de mantenimiento mensual, en vez de pagar un costo de comprar todos los servidores, instalación y el cost mínimo. Claro. Es mejor a veces el online, porque se actualiza la seguridad, todo más sencillo, pero los datos están en una nube y no en la computadora.
+
+Cliente: Está bien. Igual cada tanto se debe hacer algún backup, me imagino.
+
+Entrevistador 2: Sí, no, yo por el tema del acceso a los datos. Todo lo que está en internet es virtualmente público. Y los que están en un público uno tiene cierta privacidad.
+
+Cliente: Me preocuparía si estuviera operando un sex shop, pero como este negocio es minorista, no pasa nada. Este está comprando detergente concentrado.
+
+Entrevistador 1: En cuanto a la accesibilidad universal, ¿te preocupa como requisito para crear el sistema?
+
+Cliente: ¿que cualquiera lo pueda usar?
+
+Entrevistador 1: No, sería más bien que esté la posibilidad de verlo en determinados colores, por ejemplo, para la gente de las personas.
+
+Entrevistador 2: El tolimo hipoacúsico. Exactamente.
+
+Cliente: Miren, si yo lo fuera a hacer personalmente, creo que en una primera etapa no me preocuparía. Perfecto. Si a ustedes les sirve como ejercicio y lo quieren ver cómo es.
+
+Entrevistador 2: Puede ser en una segunda etapa.
+
+Cliente: Claro, ahí está, segunda etapa.
+
+Entrevistador 1: Respecto al volumen esperado de transacciones diarias, ¿cuánto estimas?
+
+Cliente: ¿qué habíamos dicho? 400 por día, habíamos dicho.
+
+Entrevistador 2: 400 por día y no soluciona el tema de que porque un camión calcula una carga cerca de 3000, entre 2500 y 3500 cajas. Un camión.
+
+Cliente: No hice la cuenta, pero después... La cuenta nos daba así por el volumen de la caja y el contenedor. Sí, en un pallet habíamos dicho que entraban... ¿Cómo era? Eran de 50 por 60, ¿no? Las cajas, 50 por 60 por 50. Entonces, entraban...Dos. Las capas eran de dos y eran tres capas. O sea, seis cajas por pallet y deben entrar unos veinte pallets. Son ciento veinte... No-no recuerdo cuántos pallets entran en un contenedor. Ciento veinte, doscientas cajas.
+
+Entrevistador 2: Nosotros calculamos el volumen de la caja y el volumen del contenedor. Y dividimos eso por nuestra cuenta.
+
+Cliente: Tiene que dar más o menos porque se aprovecha bien.
+
+Entrevistador 2: Claro, entonces era dos mil quinientos.
+
+Cliente: Igual quiero que quede un pasillito.
+
+Entrevistador 2: Puede haber un pasillo, pongámosle dos mil. Tardan bastante llenarse a menos que me das cuatrocientas por día, ya se llenan bastante más rápido y tiene frecuencia. Si no, la frecuencia de salida del camión tendría que salir capaz que al ochenta por ciento, en algún caso.
+
+Cliente: Ajá, ajá.
+
+Entrevistador 2: Eso eran dudas, por eso el flujo de more o menos qué se espera-
+
+Cliente: Igual vos estás pensando más que nada, estás pensando en dos cosas. Por un lado, cuánto voy a tardar yo en llenar el camión y, por otro lado, qué, no sé si ancho de banda o qué diámetro de caño necesitás vos para la interacción de los usuarios. ¿A eso te referís?
+
+Entrevistador 2: Principalmente, al camión. El tema ancho de banda, eso se contratan servicios a veces flexibles, que se amplían con demanda y se achican baja de demanda. Eso se resuelve. El tema es que si un camión va a esperar tres meses, capaz que el sistema no iba a funcionar. Teníamos que ver sacarlo al ochenta por ciento o una campaña de marketing (risas) para vender más, no sé. Intentar algo.
+
+Cliente: Las medidas del... De un camión. A ver.
+
+Entrevistador 2: Los contenedores son, eh, dos cuarenta y tres por seis por... ¿Dos cuarenta y tres metros también? Sé que de ancho son dos cuarenta y tres, y tenés de seis y de doce metros.
+
+Cliente: Dos cuarenta y tres te entran dos pallets, ¿no?, de uno veinte.
+
+Entrevistador 2: Ajá.
+
+Cliente: Sí. El ancho. En el ancho entran dos. ¿Y de largo cuánto era?
+
+Entrevistador 2: Eh, ¿seis metros o doce metros? Calculo que serán de doce.
+
+Cliente: Doce metros.
+
+Entrevistador 2: Para aprovechar el...
+
+Cliente: O sea que son doce pallets más- Son veinticuatro pallets en una capa y la altura es...
+
+Entrevistador 2: Dos cincuenta...
+
+Cliente: Veinticuatro... Sí, veinticuatro pallets...
+
+Entrevistador 2: Dos de altura, tres máximo.
+
+Cliente: Cuarenta y ocho pallets podrían entrar. Pero cuarenta y ocho pallets de un metro de altura.
+
+Entrevistador 2: De un metro.
+
+Cliente: O sea, de ocho cajas.
+
+Entrevistador 2: Tenemos dos cajas...
+
+Cliente: Espérate, ¿cuántos pallets dije?
+
+Entrevistador 2: Cuarenta y ocho.
+
+Cliente: Cuarenta y ocho pallets. Y tenemos-
+
+Entrevistador 2: Ocho cajas por pallet, ¿no?
+
+Cliente: Tenemos, eh, dos cajas por cada capa.
+
+Entrevistador 2: ¿No son cuatro?
+
+Cliente: No, porque de cincuenta por sesenta... Ah, son cuatro.
+
+Entrevistador 2: Cuatro.
+
+Cliente: Cuatro.
+
+Entrevistador 2: Y cuatro, ocho.
+
+Cliente: Y de ancho, y, y... cuatro y cuatro, ocho. Ocho por cuarenta y ocho, sería (pausa de tres segundos) . Cuatrocientas... Un poquito menos de cuatrocientas...
+
+Entrevistador 2: Tres ochenta y cuatro. No, no, no. Sí, nada que ver el cálculo nuestro.
+
+Cliente: Habrán tomado cajas más chicas o-
+
+Entrevistador 1: Cajas más chicas y camiones con más metros cúbicos.
+
+Entrevistador 2: Papá, que me dé por pale contamos todos los metros cúbicos.
+
+Entrevistador 1: Claro.
+
+Entrevistador 2: En vez de dos metros de altura, eran dos sesenta...
+
+Cliente: También está la altura del pale.
+
+Entrevistador 2: Sí, por eso, no, no-
+
+Entrevistador 1: Nos disculpamos por la confusión.
+
+Entrevistador 2: Está bien, entonces-
+
+Cliente: Está bueno chequearlo esto.
+
+Entrevistador 2: Entonces, son trescientos ochenta y cuatro... Perdón, eh, cuatrocientas cajas o menos, eh, por camión largo.
+
+Cliente: Está bien.
+
+Entrevistador 2: Con lo que no habría ningún problema.
+
+Cliente: Sí.
+
+Entrevistador 1: La duda también venía porque en base a cuanto-- eh, la cantidad de cajas que vaya comblac-- comprando el cliente, eh, va a haber como un porcentaje de ya camión ocupado, digamos.
+
+Entrevistador 2: Sí.
+
+Entrevistador 1: Como tipo, bueno, se fue este pedido o no se puede hacer este pedido, se tendrá que pedir en el siguiente, digamos, camión que salga, que llegue, digamos. Y por eso la duda del tema también de la, del transporte.
+
+Cliente: Sí, en realidad el sistema va tomando pedidos y después el mayorista meterá todas las cajas que pueda, llega hasta acá y las que quedan entrar en el segundo camión...
+
+Entrevistador 2: Perfecto.
+
+Cliente: El camión lo va a asignar el mayorista, digamos. No, no, no, no va a asignar el sistema.
+
+Entrevistador 2: Está bien. ¿Hay algún, eh, servicio, precio diferenciado para ONG, para grupos grandes, para escuelas-
+
+Cliente: No, esto es-
+
+Entrevistador 2: Esto.
+
+Cliente: Todo el mínimo posible, digamos.
+
+Entrevistador 2: Sencillo. Eh, bueno, eh, no me recuerdo si quedó algo pendiente. (pausa de seis segundos)
+
+Entrevistador 1: Sí, el proyecto es mucho más visual...
+
+Entrevistador 3: Por ejemplo, la interacción entre los usuarios y el operador cuando hay algún problema, ¿quiere que se quede así o ver en un futuro simplemente lo que sería un chatbot? Como el del banco.
+
+Cliente: Odio los chatbot, nunca resuelven nada.
+
+Entrevistador 2: Yo pensé que odiaba las, las máquinas en el teléfono y ahora los chatbot los odio más (risas) .
+
+Cliente: No, yo prefiero que sea por email o algún mensaje que tipo cargue, el usuario carga en la aplicación y le llega alguien que se ocupa de resolverlo.
+
+Entrevistador 2: Bien, de humano a humano, digamos. Sí, sí. Bueno, muy bien.
+
+Entrevistador 1: Y visualmente veo mucho los colores...
+
+Entrevistador 2: Esto... Ah, la trazabilidad va a de-- por parte del proveedor, que es el encargado del camión, ¿verdad?
+
+Cliente: ¿Qué sería la trazabilidad?
+
+Entrevistador 2: Eh, del, del pedido, del seguimiento. Eso va por parte del...
+
+Cliente: Proveedor, es algo que la información la tiene que aportar el proveedor en cada cambio de etapa o el operador consulta al proveedor. El mayorista manda una lista y dice: En este camión salieron estas cajas de estos clientes. No va mandando estados intermedios, llegó hasta la provincia, llega en tanto tiempo.
+
+Entrevistador 1: Teníamos cuatro estados, igual, como habíamos dicho la primera vez.
+
+Cliente: Claro, en el medio no había nada, ¿no? En tránsito estaba en tránsito. En tránsito, llevo a Ushuaia. Y llevo a Ushuaia.
+
+Entrevistador 1: Claro, teníamos Teníamos en preparación, en tránsito, en depósito, entregado y cancelado.
+
+Cliente: Y agregamos cancelado. Ajá.
+
+Entrevistador 1: En caso de que se cancelara. Okey.
+
+Cliente: Para que queden las estadísticas. Okey. Pero...
+
+Entrevistador 1: Sí, tenían creo que dos o tres días para cancelar. Tres días. Tres días.
+
+Cliente: Le agregamos un 10. Perfecto.
+
+Entrevistador 1: Y por último, ¿tenemos lo del uptime? El tema de la cantidad de tiempo que debe estar activa la página, el servicio activo.
+
+Cliente: Baja de mantenimiento, recarga de catálogo. ¿Hay algún momento en que bajarla o conectar 100% online? O se puede tomar algún día para mantenimiento. No sé si digas, pero por ahí un par de horas por día, algo así.
+
+Entrevistador 1: Para actualizar sobre todo el tema de catálogo.
+
+Cliente: ¿qué es lo que se estila en estos casos? 99,9% semanal, mensual. 99,9% del tiempo online.
+
+Entrevistador 1: Mira.
+
+Cliente: No sé, bien. Creo que como a tres, pero no te discutís con mi compañero. Pero si hay necesidad de un- Menos del 1%, digamos. De recálculo, mantenimiento, fuera. Está bien. Era una consulta. Está bien. Sino...
+
+Entrevistador 1: Y posventa, los... Sí, luego lo de Uptime no teníamos más nada. El tema del protocolo ya se lo planteamos.
+
+Entrevistador 4: En cuestión de publicidad de la aplicación se piensa...
+
+Cliente: Esa es buena.
+
+Entrevistador 1: Un Instagram.
+
+Cliente: ¿vos qué decís? Que la aplicación... Publicitar la aplicación.
+
+Entrevistador 4: Publicar la aplicación y que tenga publicidad.
+
+Cliente: Claro, está bueno tener publicidad.
+
+Entrevistador 4: Para generar un ingreso. Sí.
+
+Cliente: Se puede reservar el espacio en la interfaz para publicidad o promoción. Sí, sí, sí. Buenísimo.
+
+Entrevistador 1: Una consulta, respecto a la oferta, ¿habíamos dicho algo en cuanto a los productos? Por ejemplo, por algún producto que es justo usted con vencimiento próximo, quizás, y se pueda ofertar, ¿habría como una parte especial para oferta o lo mantenemos aún simple y lo dejamos para el segundo?
+
+Cliente: Oferta sí, pero no por vencimiento próximo. Perfecto. Porque como es un mayorista de allá, que lo venda él allá. El mayorista puede... Acá agregamos la incertidumbre del viaje.
+
+Entrevistador 1: Es verdad eso.
+
+Cliente: Puede poner las ofertas que quiera. Listo. Claro. Y bueno, si hay algún producto... Porque eso podría estar en el negocio del mayorista con algún fabricante, entonces se destaca.
+
+Entrevistador 1: Perfecto. O sea, puede haber productos destacados.
+
+Cliente: Sí, sí.
+
+Entrevistador 1: Como lo de la...
+
+Cliente: Habíamos hablado la vez pasada también de ver las estadísticas, pero el tema del margen de ganancia puede tener cada uno. Con respecto a eso, ¿qué porcentaje es para el operador de la transacción y si varía según el volumen, según la cantidad de caja o es un valor fijo? Es una buena pregunta. Porque lo que yo había pensado hasta ahora era los precios del mayorista directos y el costo de la logística y el flete se calculaba, que eso incluye la ganancia de la empresa, digamos. Pero la verdad que no sé qué margen poner. Un tres, un cinco, un 10. Tentativamente. Estaría bueno eso poder regularlo. O poner un cinco, pero tener la opción de ajustarlo.
+
+Entrevistador 4: Y en empaquetamiento se calculaba el costo fijo y se agrega un porcentaje variable. Para poder calcular eso, ya está.
+
+Entrevistador 1: Creo que hemos resuelto...
+
+Entrevistador 4: En caso de que un usuario, por ejemplo, reciba un producto defectuoso, se le mandará uno de nuevo gratuito.
+
+Entrevistador 1: Lo gestiona el operador.
+
+Cliente: Yo haría un reembolso.
+
+Entrevistador 4: Porque estamos pensando en que...
+
+Cliente: Y que a lo mejor se lo compra acá, porque si le pone una semana...
+
+Entrevistador 4: Claro, reservar una caja para las devoluciones.
+
+Cliente: Si quiere volver a comprar, que compre.
+
+Entrevistador 4: Reembolso, no hay devolución, hay reembolso. No hay reposición.
+
+Cliente: Hay que cultivar la confianza de la gente, porque se está jugando, no tiene que pagar por adelantado. Entonces, si hay algún problema, se le devuelve.
+
+Entrevistador 4: Lo que habíamos pensado es dejar cajas vacías para mandar los productos que hay que reemplazar, pero es más complicado. Me entiende que un reembolso es mejor.
+
+Cliente: Muy bien.
+
+Entrevistador 2: Reembolso... eh, por defecto.
+
+Cliente: A futuro, si la persona quiere volver a comprar, se le puede dar prioridad en el próximo camión, meter las cosas (resopla) que-llegaron en mal estado, digamos, ¿no?, que no llegaron.
+
+Entrevistador 2: Está bien, está bueno.
+
+Cliente: Porque también puede pasar eso, que, este, no les llega algo que habían pedido.
+
+Entrevistador 2: Y ya que entramos con el tema de las prioridades, eh, en general todos tienen la misma prioridad excepto que haya, eh, alguna reposición que hacer.
+
+Cliente: Sí.
+
+Entrevistador 2: No, no importa el arranque hetario, el resto de las condiciones-
+
+Cliente: Orden de llegada.
+
+Entrevistador 2: Bien, perfecto. (pausa de cuatro segundos)
+
+Entrevistador 1: Ahí estamos entonces.
+
+Entrevistador 2: Va a haber una tercera, ¿no?
+
+Entrevistador 1: No, creo que no (ríe) .
+
+Cliente: En principio no, pero me pueden hacer llegar consultas...
+
+Entrevistador 2: ¿Te podría pedir un mail de última para escribirte algún mail así-
+
+Cliente: Sí, dale.
+
+Entrevistador 1: Ah, gracias, profe.
+
+Cliente: L, L canepa.
+
+Entrevistador 2: Canepa arroba utf.
+
+Cliente: Sí.
+
+Entrevistador 2: Eduardo, ¿verdad?
+
+Cliente: Sí.
+
+Entrevistador 2: L canepa.
+
+Cliente: Sí.
+
+Entrevistador 2: Bueno, perfecto. Esperamos no tener que escribirlo (risas) . Para nada. Cualquier cosa...
+
+Entrevistador 1: Lo siento, para aclarar, tenía razón mi compañero, noventa y nueve punto nueve el... Lo que se estima que esté en funcionamiento la página todo el tiempo.
+
+Entrevistador 2: Todo el mes menos ocho minutos, me parece.
+
+Entrevistador 1: ¿Mira?
+
+Cliente: Mirá vos.
+
+Entrevistador 1: Menos un nueve por ciento.
+
+Entrevistador 2: Por ahí andaba, ya no me acuerdo.
+
+Cliente: Sí.
+
+Entrevistador 2: Ah, no, bueno.
+
+Cliente: Bueno.
+
+Entrevistador 2: Buenísimo.
+
+Entrevistador 1: Muchas gracias, Luis, por tu tiempo.
+
+Entrevistador 2: Muchas gracias, Luis.
+
+Cliente: Un placer, ¿eh? (risas) Bueno, muy interesante.
+
+Entrevistador 2: Y... bueno. Te vamos a agregar una comisión oculta al sistema.
+
+Entrevistador 1: (risas)
+
+Entrevistador 2: Adiós.
