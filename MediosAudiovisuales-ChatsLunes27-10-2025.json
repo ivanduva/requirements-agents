@@ -1,0 +1,465 @@
+[
+  {
+    "id": "6229b961-f42d-474c-a6d6-9ddf612b784f",
+    "source": "API/Embed",
+    "sessionId": "6229b961-f42d-474c-a6d6-9ddf612b784f",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Hola Natalia, cómo estas ? no sé si recordas que estamos haciendo una entrevista para desarrollar un software para la gestión del Aula-Estudio",
+        "role": "user",
+        "time": "2025-10-27T20:33:55.283Z"
+      },
+      {
+        "content": "¡Hola! Sí, claro que me acuerdo. Un gusto hablar con ustedes de nuevo. Me parece genial que estén avanzando con el proyecto del software para el laboratorio. Como les decía, es algo que necesitamos muchísimo para ordenar el trabajo y que los estudiantes puedan acceder a los recursos de forma más ágil. ¿En qué andan ahora? ¿Hay algo en particular que necesiten que definamos?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:33:57.719Z"
+      },
+      {
+        "content": "si, estamos definiendo los requisitos funcionales y no funcionales del modelo de dominio del proyecto, y tenemos algunas preguntas ",
+        "role": "user",
+        "time": "2025-10-27T20:35:00.437Z"
+      },
+      {
+        "content": "Dale, perfecto. Pregunten nomás, así los ayudo a aterrizar las ideas. Ya saben que a veces uno piensa en soluciones muy sofisticadas, pero después en el día a día necesitamos cosas bien concretas y que funcionen sin problemas. Así que cuenten, ¿qué los trae por acá?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:35:02.665Z"
+      },
+      {
+        "content": "bueno la 1er pregunta es:\n\nTeniendo en cuenta la situación en que un usuario necesita/quiere hacer una reserva, el usuario elije el apartado \"realizar reserva\" y luego el sistema le muestra un formulario. Por ejemplo, si el usuario elije el caso particular \"reservar equipo\" el sistema muestra el listado de equipo disponible y luego que haya seleecionado el equipo, muestra un formulario donde ingresa cantidad de equipos a reservar. \n\nAhora que estamos en contexto, la pregunta es: cuanto tiempo espera el sistema a que el usuario complete ese formulario ? ",
+        "role": "user",
+        "time": "2025-10-27T20:39:04.742Z"
+      },
+      {
+        "content": "Ah, buena pregunta. Mirá, lo ideal sería que el sistema guarde la información que el estudiante va cargando en el formulario, así no tiene que empezar de cero si se distrae o se le corta la conexión. Pero, pensando en un tiempo prudencial, digamos que si el usuario deja el formulario sin completar por **15 o 20 minutos**, el sistema podría cerrar la sesión y liberar los recursos.\n\n¿Por qué ese tiempo? Porque a veces los chicos abren el formulario desde el celu en medio de la clase, se les corta internet, o se ponen a charlar con un compañero y se olvidan. Pero tampoco queremos tener equipos \"reservados\" en el limbo por horas, porque eso genera un montón de problemas.\n\nLo importante es que el sistema le avise al usuario que la sesión está por vencer, con un cartelito que diga \"Tu reserva se cancelará en 5 minutos si no guardas los cambios\". ¿Les parece razonable?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:39:08.531Z"
+      },
+      {
+        "content": "si, nos parece razonable",
+        "role": "user",
+        "time": "2025-10-27T20:41:07.384Z"
+      },
+      {
+        "content": "Bien, me alegro que estemos en sintonía. ¿Qué otra duda tienen?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:41:08.983Z"
+      },
+      {
+        "content": "si, la siguiente pregunta sería, como crees que deben definirse los roles de los usuarios ? al crearse o el administrador los valida o el sistema los define ? ",
+        "role": "user",
+        "time": "2025-10-27T20:59:48.656Z"
+      },
+      {
+        "content": "A ver, ahí hay que ser cuidadosos para evitar problemas de seguridad y que cada uno tenga acceso a lo que corresponde.\n\nYo creo que lo mejor es que el sistema les pida a todos los usuarios que se registren con su **correo institucional**. Así ya tenemos una forma de validar que son estudiantes, docentes o personal del laboratorio.\n\nDespués, el sistema podría asignar automáticamente un rol básico según el dominio del correo:\n\n*   **Estudiantes:** acceso a los formularios de reserva, visualización de su historial, etc.\n*   **Docentes:** lo mismo que estudiantes, más la posibilidad de aprobar o rechazar solicitudes de sus alumnos (como hablamos de la notificación automática).\n*   **Personal del laboratorio (coordinador, técnicos, etc.):** acceso al panel administrativo, gestión de recursos, etc.\n\nPero, para el personal del laboratorio, me parece importante que **el administrador general del sistema (que supongo que seré yo u otra persona designada) valide y configure los permisos específicos**. Por ejemplo, no todos los técnicos tienen que poder dar de baja equipos o modificar los horarios del aula.\n\n¿Cómo lo ven? ¿Les parece una forma segura y práctica de manejar los roles?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:59:52.138Z"
+      },
+      {
+        "content": "excelente, un golaso... Te agradecemos desde el grupo 5, saludos !!! ",
+        "role": "user",
+        "time": "2025-10-27T21:26:56.487Z"
+      },
+      {
+        "content": "¡De nada! Me alegro que les sirva. Y no me agradezcan todavía, ¡que falta mucho para que el software sea un golazo! 😉 Sigan preguntando, que estoy acá para ayudarlos a que el sistema quede lo mejor posible. ¡Saludos al grupo 5!\n",
+        "role": "bot",
+        "time": "2025-10-27T21:26:58.939Z"
+      }
+    ]
+  },
+  {
+    "id": "35ea6a31-7cda-4a84-ab8e-498f3d37d324",
+    "source": "API/Embed",
+    "sessionId": "35ea6a31-7cda-4a84-ab8e-498f3d37d324",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "hola",
+        "role": "user",
+        "time": "2025-10-27T20:33:00.833Z"
+      },
+      {
+        "content": "¡Hola! Qué bueno que están avanzando con el proyecto. ¿En qué puedo ayudarlos hoy? ¿Tienen alguna duda puntual o quieren que revisemos algo en particular? Como les decía, la idea es que esto nos sirva para mejorar la gestión del laboratorio, así que cualquier cosa que se les ocurra, ¡bienvenida sea!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:33:02.746Z"
+      },
+      {
+        "content": "como queres que funcione la tutoria?",
+        "role": "user",
+        "time": "2025-10-27T20:34:43.598Z"
+      },
+      {
+        "content": "Bien, buena pregunta. A ver, como funciona ahora es bastante artesanal. Los estudiantes se contactan, vemos la disponibilidad de los tutores... un lío.\n\nIdealmente, me gustaría que el sistema de tutorías permita:\n\n*   **Que el estudiante pueda ver los horarios disponibles de cada tutor:** Así evitamos el ping-pong de mails preguntando \"cuándo podés\". Si el tutor ya cargó su disponibilidad, el estudiante elige y listo.\n*   **Que se especifique el tema de la tutoría:** No es lo mismo una duda sobre guion que sobre edición. Así el tutor sabe de antemano a qué atenerse y si es el indicado para esa consulta.\n*   **Que se pueda elegir la modalidad (presencial o virtual):** Como les comentaba, algunos tutores prefieren presencial, otros virtual... y a veces depende del tema. Que quede claro al momento de la solicitud.\n*   **Que haya un registro de las tutorías realizadas:** Para tener un seguimiento de qué temas son los más consultados, quiénes son los estudiantes que más usan el servicio, etc. Nos sirve para mejorar la oferta de talleres y capacitaciones.\n\nY algo importante: estaría bueno que al tutor le llegue una notificación con la solicitud, y que tenga la opción de aceptarla o rechazarla (con un motivo, si es necesario). Así evitamos que se superpongan horarios o que acepte temas que no domina.\n\n¿Cómo lo ven? ¿Se les ocurre algo más?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:34:48.303Z"
+      },
+      {
+        "content": "queres que el admiistrador pueda asignar las tutorias?",
+        "role": "user",
+        "time": "2025-10-27T20:38:49.606Z"
+      },
+      {
+        "content": "Mmm, mirá, en principio no creo que sea necesario que el administrador *asigne* las tutorías. Me parece que lo ideal es que el sistema permita que el estudiante elija al tutor y el horario, dentro de las opciones disponibles, y que el tutor tenga la última palabra para aceptar o rechazar la solicitud.\n\nSi el administrador tuviera que asignar cada tutoría, se volvería un cuello de botella y sumaríamos burocracia. En cambio, si el sistema es ágil y permite la autogestión, creo que va a funcionar mejor.\n\nAhora bien, sí me gustaría que el administrador tenga acceso a un panel donde pueda ver todas las solicitudes de tutoría (pendientes, aprobadas, rechazadas), y que pueda intervenir en caso de ser necesario. Por ejemplo, si un tutor no responde en un tiempo razonable, o si hay algún conflicto entre el estudiante y el tutor.\n\n¿Te parece lógico?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:38:52.748Z"
+      },
+      {
+        "content": "cuales serian, especificamente, las funciones del administrador?",
+        "role": "user",
+        "time": "2025-10-27T20:42:01.987Z"
+      },
+      {
+        "content": "¡Buena pregunta! A ver, pensando en el día a día del laboratorio, creo que el administrador debería tener las siguientes funciones principales dentro del sistema:\n\n*   **Gestión de usuarios:**\n    *   Dar de alta nuevos usuarios (estudiantes, docentes, tutores, no docentes).\n    *   Modificar datos de usuarios existentes (cambio de contraseña, actualización de información de contacto, etc.).\n    *   Dar de baja usuarios (por ejemplo, estudiantes que se gradúan o docentes que se jubilan).\n    *   Asignar permisos y roles (por ejemplo, definir quiénes son administradores, quiénes son tutores, etc.). Esto es clave para la seguridad del sistema.\n*   **Gestión de recursos:**\n    *   Cargar y actualizar el inventario de equipos disponibles para préstamo (cámaras, micrófonos, grabadoras, etc.).\n    *   Definir la disponibilidad del aula-estudio (horarios, días, etc.).\n    *   Gestionar el listado de tutores y sus horarios de disponibilidad.\n    *   Registrar el mantenimiento de los equipos (fechas, tipo de reparación, etc.). Esto nos ayuda a llevar un control del estado de los recursos y a planificar las compras.\n*   **Gestión de solicitudes:**\n    *   Visualizar todas las solicitudes de préstamo, reserva y tutoría (pendientes, aprobadas, rechazadas).\n    *   Intervenir en caso de ser necesario (aprobar o rechazar solicitudes, asignar recursos, etc.).\n    *   Generar reportes y estadísticas sobre el uso de los recursos del laboratorio.\n*   **Configuración general del sistema:**\n    *   Definir los parámetros generales del sistema (por ejemplo, los plazos máximos de préstamo, los horarios de atención del laboratorio, etc.).\n    *   Gestionar las notificaciones (por ejemplo, definir qué tipo de notificaciones se envían por mail y a quiénes).\n\nBásicamente, el administrador es el responsable de que el sistema funcione correctamente y de que los recursos del laboratorio estén disponibles para los estudiantes y docentes.\n\n¿Qué les parece? ¿Agregarían o quitarían algo?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:42:07.415Z"
+      },
+      {
+        "content": "cuela seria la funcion principal del sistema a desarollar? gestionar y generar solicitudes de alguno de las 3 cosas que ofrece el aula estudio",
+        "role": "user",
+        "time": "2025-10-27T20:46:27.421Z"
+      },
+      {
+        "content": "Exacto. La función principal del sistema es **gestionar de manera eficiente las solicitudes de los tres servicios que ofrece el laboratorio:**\n\n*   Préstamo de equipamiento audiovisual.\n*   Reserva del aula-estudio.\n*   Solicitud de tutorías.\n\nPero no se trata solo de \"generar\" solicitudes. El sistema tiene que permitir:\n\n*   **Centralizar** todas las solicitudes en un único lugar, para que no se pierdan en mails o planillas.\n*   **Automatizar** el proceso de gestión, para que sea más rápido y eficiente. Por ejemplo, que el sistema verifique automáticamente la disponibilidad de los equipos o del aula.\n*   **Facilitar** la comunicación entre los estudiantes y el personal del laboratorio. Por ejemplo, que el sistema envíe notificaciones automáticas sobre el estado de las solicitudes.\n*   **Tener trazabilidad** de todas las solicitudes, desde el momento en que se crean hasta que se completan. Esto nos permite saber qué pasó en cada etapa del proceso y quién fue el responsable.\n*   **Generar información útil** para la toma de decisiones. Por ejemplo, saber qué equipos son los más solicitados, cuáles son los horarios de mayor demanda del aula, etc.\n\nEn resumen, el sistema tiene que ser una herramienta que nos ayude a gestionar mejor los recursos del laboratorio y a brindar un mejor servicio a los estudiantes. ¿Se entiende la idea?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:46:30.872Z"
+      },
+      {
+        "content": "a la hora de registrar un usuario, este usuario se valida con el siu para definir en que grado, materias regulares, etc",
+        "role": "user",
+        "time": "2025-10-27T20:47:57.543Z"
+      },
+      {
+        "content": "¡Ah, mirá, qué buena pregunta! Eso sería ideal, pero... no sé si es factible.\n\nA ver, explico el problema: la información del SIU Guaraní es bastante sensible, y no sé si la UNTDF estaría dispuesta a compartirla con un sistema externo como el que ustedes están desarrollando. Además, la integración técnica con el SIU puede ser complicada y requerir permisos especiales.\n\nEntonces, si bien la idea de validar automáticamente los datos del estudiante con el SIU es excelente, me parece que en la práctica puede ser difícil de implementar.\n\n¿Qué alternativas tenemos?\n\n1.  **Que el estudiante ingrese manualmente sus datos:** Es lo más sencillo, pero corremos el riesgo de que haya errores o información desactualizada.\n2.  **Que el sistema verifique automáticamente el correo institucional del estudiante:** Esto nos asegura que el usuario es realmente estudiante de la UNTDF, y nos permite asociarlo a su carrera. Podríamos usar el dominio del mail (@untdf.edu.ar) para identificar la carrera y el año de ingreso.\n3.  **Que el sistema se conecte a una API (si existe) que brinde información básica de los estudiantes:** Esto sería lo ideal, pero habría que averiguar si la UNTDF ofrece una API de este tipo y qué permisos necesitamos para acceder a ella.\n\nEn principio, yo me inclinaría por la opción 2: verificar el correo institucional del estudiante. Me parece un buen equilibrio entre seguridad, facilidad de implementación y utilidad. ¿Qué les parece a ustedes? ¿Ven algún problema con esta opción?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:48:01.637Z"
+      },
+      {
+        "content": "especificamente a que se refiere con generar un registro de patrimonio?",
+        "role": "user",
+        "time": "2025-10-27T20:51:11.961Z"
+      },
+      {
+        "content": "Ah, perdón, me expresé mal. Cuando dije \"registro de patrimonio\" me refería al **inventario de equipos** que tenemos en el laboratorio.\n\nLo que me gustaría es que el sistema permita llevar un control detallado de cada equipo:\n\n*   **Tipo de equipo:** Cámara, micrófono, grabadora, trípode, etc.\n*   **Marca y modelo:** Para identificarlo correctamente.\n*   **Número de serie:** Fundamental para el control de inventario y para identificar equipos en caso de robo o extravío.\n*   **Fecha de adquisición:** Para saber cuándo se compró el equipo y calcular su depreciación.\n*   **Estado:** Nuevo, bueno, regular, malo, fuera de servicio.\n*   **Ubicación:** En qué sede se encuentra el equipo (Río Grande o Ushuaia).\n*   **Observaciones:** Cualquier información adicional relevante (por ejemplo, si tiene algún daño o si requiere algún mantenimiento especial).\n\nEste registro de equipos nos permitiría:\n\n*   Saber qué equipos tenemos disponibles en cada momento.\n*   Planificar el mantenimiento preventivo y correctivo.\n*   Identificar los equipos que necesitan ser reemplazados.\n*   Generar reportes sobre el estado del inventario.\n\n¿Queda más claro ahora?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:51:15.169Z"
+      },
+      {
+        "content": "cuantos roles tiene el sistema?",
+        "role": "user",
+        "time": "2025-10-27T20:55:50.029Z"
+      },
+      {
+        "content": "Bien, a ver, pensando en los distintos perfiles de usuarios que interactúan con el sistema, creo que podríamos definir los siguientes roles:\n\n*   **Estudiante:** Es el usuario principal del sistema. Puede solicitar préstamos de equipos, reservar el aula-estudio y solicitar tutorías. Tiene acceso a su historial de solicitudes y puede ver el estado de cada una.\n*   **Tutor:** Es el encargado de brindar las tutorías a los estudiantes. Puede ver las solicitudes de tutoría que le han sido asignadas, aceptar o rechazar solicitudes, y registrar el resultado de las tutorías.\n*   **No Docente (Colaborador del laboratorio):** Es el personal del laboratorio que colabora en la gestión de los recursos. Puede ver las solicitudes de préstamo y reserva, aprobar o rechazar solicitudes, registrar la entrega y devolución de equipos, y gestionar la disponibilidad del aula-estudio.\n*   **Docente:** Puede solicitar préstamos de equipos para proyectos especiales o materias a su cargo. Puede recibir notificaciones sobre solicitudes de sus alumnos y aprobarlas o rechazarlas.\n*   **Administrador:** Tiene acceso a todas las funcionalidades del sistema. Puede gestionar usuarios, recursos, solicitudes y la configuración general del sistema.\n\n¿Qué les parece? ¿Agregarían o quitarían algún rol? ¿Creen que algún rol debería tener permisos adicionales?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:55:54.212Z"
+      },
+      {
+        "content": "saludos de parte del grupo 4 ",
+        "role": "user",
+        "time": "2025-10-27T20:57:15.993Z"
+      },
+      {
+        "content": "¡Saludos para el Grupo 4! Espero que estén avanzando bien con el proyecto. Cualquier duda que tengan, no duden en consultarme. ¡Y gracias por el esfuerzo que están poniendo!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:57:18.550Z"
+      }
+    ]
+  },
+  {
+    "id": "95137721-a22f-4aac-af08-ab9e699c74e8",
+    "source": "API/Embed",
+    "sessionId": "95137721-a22f-4aac-af08-ab9e699c74e8",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Si fueras profesora de ing de requerimientos, que evaluarias segun el sistema en cuestion? Disctalas de forma jerarquica",
+        "role": "user",
+        "time": "2025-10-27T20:54:20.830Z"
+      },
+      {
+        "content": "¡Hola! Qué bueno que me preguntás esto. Como profe, siempre les digo a los chicos que los requerimientos son la base de todo buen software. Si no entendemos bien qué necesita el usuario, estamos fritos.\n\nAsí que, si tuviera que evaluar este sistema que están armando para el laboratorio, me fijaría en varios aspectos, priorizándolos así:\n\n1.  **Completitud y Coherencia:**\n\n    *   **¿Cubre todas las funcionalidades esenciales?** Acá me refiero a si realmente se puede gestionar el préstamo de equipos, la reserva del aula y las tutorías de forma integral. No puede faltar nada importante.\n    *   **¿Hay consistencia entre las funcionalidades?** Que no haya cosas contradictorias o que una función interfiera con otra. Por ejemplo, que no se pueda reservar el aula en un horario donde ya está asignada una tutoría.\n    *   **¿Se contemplan todos los roles (estudiante, personal del labo, tutores)?** Cada uno tiene sus necesidades y permisos.\n\n2.  **Usabilidad y Experiencia del Usuario:**\n\n    *   **¿Es intuitivo para los estudiantes?** Que no tengan que leer un manual para pedir un equipo o reservar el aula. Tiene que ser fácil de usar, con un diseño amigable.\n    *   **¿Es eficiente para el personal del laboratorio?** Que puedan gestionar las solicitudes rápidamente, ver la disponibilidad de los recursos de un vistazo, y comunicarse fácilmente con los estudiantes.\n    *   **¿Las notificaciones son claras y oportunas?** Que los estudiantes sepan cuándo se aprobó su solicitud, cuándo tienen que devolver el equipo, etc. Y que el personal del labo reciba alertas sobre nuevas solicitudes o problemas.\n\n3.  **Correctitud y Confiabilidad:**\n\n    *   **¿El sistema funciona correctamente?** Suena obvio, pero hay que asegurarse de que no haya errores, que los cálculos sean correctos, que los datos se guarden bien.\n    *   **¿Es seguro?** La seguridad de los datos personales de los estudiantes es fundamental. Hay que proteger su información de accesos no autorizados.\n    *   **¿Es robusto?** Que pueda manejar situaciones inesperadas, como un pico de solicitudes o un error en la conexión a internet.\n\n4.  **Administración y Mantenimiento:**\n\n    *   **¿Es fácil de mantener y actualizar?** Que no sea un dolor de cabeza agregar nuevos equipos, cambiar los horarios del aula, o actualizar la información de los tutores.\n    *   **¿El panel de administración es claro y completo?** Que el personal del labo tenga todas las herramientas que necesita para gestionar los recursos y las solicitudes.\n    *   **¿Se pueden generar reportes e informes?** Para saber qué equipos se usan más, cuáles son los horarios más solicitados del aula, etc. Esto nos ayudaría a tomar decisiones para mejorar el servicio.\n\n5.  **Adaptabilidad y Escalabilidad:**\n\n    *   **¿El sistema puede adaptarse a cambios futuros?** Por ejemplo, si decidimos ofrecer nuevos servicios (como islas de edición, como hablamos el otro día), que sea fácil agregarlos al sistema.\n    *   **¿Puede manejar un aumento en la cantidad de usuarios o solicitudes?** Si la carrera de Medios crece, el sistema tiene que poder seguir funcionando bien.\n\nEn resumen, busco que el sistema sea **completo, usable, correcto, fácil de mantener y adaptable**. Y sobre todo, que realmente resuelva los problemas que tenemos en el laboratorio. ¡Espero que les sirva esta guía!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:54:28.606Z"
+      },
+      {
+        "content": "Si fueras prpfesora de ing de requerimientos, que detalles mirarias en orden jerarquico?",
+        "role": "user",
+        "time": "2025-10-27T20:55:30.270Z"
+      },
+      {
+        "content": "¡Dale, vamos a desglosar aún más los detalles que miraría como profe de Ingeniería de Requerimientos! Pensemos en cada área que mencioné antes, pero ahora enfocándonos en los aspectos más específicos y críticos.\n\n**1. Completitud y Coherencia (Detalles Críticos):**\n\n*   **Flujo Completo de Solicitudes:**\n    *   **Alta de Solicitud:** ¿Están todos los campos necesarios (tipo de recurso, fechas, horarios, finalidad, materia, docente a cargo)? ¿Hay validaciones para evitar errores (fechas imposibles, horarios inválidos, etc.)?\n    *   **Aprobación/Rechazo:** ¿Hay un mecanismo claro para que el personal del labo apruebe o rechace solicitudes? ¿Se pueden agregar comentarios o justificaciones?\n    *   **Seguimiento:** ¿Se puede ver el estado de la solicitud en cada etapa (pendiente, aprobada, en uso, devuelta, etc.)? ¿Hay un historial de cambios y notificaciones?\n    *   **Cancelación:** ¿Se puede cancelar una solicitud? ¿Qué pasa con las notificaciones y la disponibilidad del recurso?\n*   **Gestión de Recursos:**\n    *   **Equipamiento:** ¿Se puede registrar el inventario completo (tipo, marca, modelo, número de serie, estado)? ¿Se puede dar de baja un equipo o registrar un mantenimiento?\n    *   **Aula-Estudio:** ¿Se pueden definir los horarios de disponibilidad? ¿Se pueden bloquear fechas por mantenimiento o eventos especiales?\n    *   **Tutores:** ¿Se pueden asignar tutores a temas específicos? ¿Se pueden definir sus horarios de disponibilidad (presencial y virtual)?\n*   **Reglas de Prioridad:**\n    *   ¿Cómo se implementan las prioridades para materias de proyecto (Proyecto 1, 2, 3, 4)? ¿El sistema tiene en cuenta la \"lista negra\" de estudiantes con problemas previos?\n    *   ¿Cómo se manejan las superposiciones de solicitudes? ¿Hay un mecanismo para resolver conflictos y notificar a los estudiantes?\n\n**2. Usabilidad y Experiencia del Usuario (Detalles Críticos):**\n\n*   **Interfaz Intuitiva:**\n    *   ¿El formulario de solicitud es fácil de entender y completar? ¿Los campos están bien etiquetados y organizados?\n    *   ¿Los paneles de administración son claros y concisos? ¿La información está presentada de forma visualmente atractiva y fácil de entender?\n    *   ¿La navegación es sencilla e intuitiva? ¿Se puede encontrar rápidamente lo que se necesita?\n*   **Eficiencia:**\n    *   ¿Cuántos clics se necesitan para completar una tarea común (pedir un equipo, aprobar una solicitud, etc.)? ¿Se pueden automatizar tareas repetitivas?\n    *   ¿El sistema responde rápidamente? (¡Recuerden los 3 segundos para las búsquedas!)\n    *   ¿Se puede acceder al sistema desde diferentes dispositivos (computadora, tablet, celular)?\n*   **Notificaciones:**\n    *   ¿Las notificaciones son claras y concisas? ¿Indican claramente qué acción se requiere (aprobar, devolver, etc.)?\n    *   ¿Se pueden personalizar las notificaciones (por email, dentro de la plataforma)?\n    *   ¿Se envían las notificaciones en el momento adecuado? (Por ejemplo, un recordatorio antes de la fecha de devolución del equipo).\n\n**3. Correctitud y Confiabilidad (Detalles Críticos):**\n\n*   **Validación de Datos:**\n    *   ¿Se validan los datos ingresados por los usuarios (formatos de fecha, emails, DNI, etc.)?\n    *   ¿Se evitan duplicados (usuarios, equipos, etc.)?\n    *   ¿Se manejan correctamente los errores (campos vacíos, datos inválidos, etc.)?\n*   **Seguridad:**\n    *   ¿Se protegen las contraseñas de los usuarios (encriptación, etc.)?\n    *   ¿Se controlan los accesos a la información (roles y permisos)?\n    *   ¿Se auditan las acciones realizadas en el sistema (logs)?\n*   **Robustez:**\n    *   ¿El sistema puede manejar picos de carga sin fallar?\n    *   ¿Se realizan copias de seguridad de los datos?\n    *   ¿Se puede recuperar el sistema en caso de un fallo?\n\n**4. Administración y Mantenimiento (Detalles Críticos):**\n\n*   **Panel de Administración:**\n    *   ¿Se pueden gestionar usuarios (altas, bajas, modificaciones, roles)?\n    *   ¿Se pueden gestionar recursos (equipos, aulas, tutores)?\n    *   ¿Se pueden generar reportes e informes (uso de equipos, reservas de aula, etc.)?\n*   **Mantenimiento:**\n    *   ¿Es fácil actualizar el sistema a nuevas versiones?\n    *   ¿Se pueden diagnosticar y solucionar problemas fácilmente?\n    *   ¿Se puede monitorear el rendimiento del sistema?\n\n**5. Adaptabilidad y Escalabilidad (Detalles Críticos):**\n\n*   **Modularidad:**\n    *   ¿El sistema está diseñado de forma modular para facilitar la agregación de nuevas funcionalidades?\n    *   ¿Se pueden integrar fácilmente nuevos módulos con los existentes?\n*   **Escalabilidad:**\n    *   ¿El sistema puede manejar un aumento en la cantidad de usuarios y solicitudes sin degradar el rendimiento?\n    *   ¿Se puede escalar la infraestructura del sistema (servidores, bases de datos) si es necesario?\n\nComo ven, son muchos detalles, pero todos son importantes para que el sistema funcione bien y cumpla con las necesidades del laboratorio. ¡Espero que esto les ayude a enfocarse en lo más importante!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:55:41.758Z"
+      }
+    ]
+  },
+  {
+    "id": "bd1700aa-0dcb-447f-b405-28617d662a97",
+    "source": "API/Embed",
+    "sessionId": "bd1700aa-0dcb-447f-b405-28617d662a97",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Hola Natalia, somos el grupo 6",
+        "role": "user",
+        "time": "2025-10-27T20:35:12.019Z"
+      },
+      {
+        "content": "¡Hola, grupo 6! Un gusto. Díganme, ¿en qué andan trabajando y cómo puedo serles útil hoy? Cuentenmé un poco cómo viene el proyecto y qué necesitan del labo.\n",
+        "role": "bot",
+        "time": "2025-10-27T20:35:14.120Z"
+      },
+      {
+        "content": "Estamos en la etapa en la que ya definimos la totalidad de los RF y RNF, avanzando con el DCU y el diagrama de clases, entendes los terminos que uso?",
+        "role": "user",
+        "time": "2025-10-27T20:36:08.903Z"
+      },
+      {
+        "content": "¡Sí, claro que entiendo! Me alegra que estén avanzando tan bien y que tengan todo encaminado. Es fundamental tener bien definidos los requerimientos y el diseño antes de meterse de lleno con la programación.\n\n¿Y en qué parte específica del diseño sienten que necesitan mi opinión o feedback? ¿Hay algo que les esté generando dudas sobre cómo implementarlo en el sistema? Por ejemplo, no se, como impacta en el registro de los estudiantes o en el acceso a los equipos.\n",
+        "role": "bot",
+        "time": "2025-10-27T20:36:11.430Z"
+      },
+      {
+        "content": "a continuacion voy a pasarte una lista de los CU identificados hasta ahora, que te parece",
+        "role": "user",
+        "time": "2025-10-27T20:36:44.371Z"
+      },
+      {
+        "content": "Dale, ¡perfecto! Me viene bárbaro ver los casos de uso que identificaron. Así me aseguro de que estemos en la misma sintonía y de que el sistema cubra todas las necesidades del laboratorio. ¡Adelante con la lista!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:36:46.872Z"
+      },
+      {
+        "content": "Registrarse al sistema\nIniciar sesión\nCerrar sesión\nVer Perfil\nModificar Perfil \nIniciar Chat \nMandar Mensaje\nVer Notificaciones\nGestionar Notificaciones  \nVer catálogo\nAdministrar Catálogo \nAgregar recurso\nCrear Curso \nBuscar recurso disponible \nVer detalles de recurso\nEditar detalles de equipamiento \nReservar Equipamiento\nReservar Espacio \nInscribirse al curso \nVer lista de espera \nDarse de baja del curso \nVincularse a curso \nAdministrar Curso\nReportar asistencia \nReportar baja \nFinalizar Reserva \nReportar Observaciones \nVer Información de usuarios\nAdministrar usuarios \nPerdonar penalización \nBloquear Usuario \nCargar Archivos\nVerificar validez de certificados\nVer reportes trimestrales\n",
+        "role": "user",
+        "time": "2025-10-27T20:37:07.120Z"
+      },
+      {
+        "content": "¡Bien! A primera vista, me parece una lista bastante completa. Veo que cubrieron tanto las funcionalidades básicas de usuario como las de gestión del laboratorio, ¡eso es importante!\n\nAlgunas observaciones y preguntas que me surgen:\n\n*   **Verificar validez de certificados:** ¿A qué se refiere este caso de uso? ¿Los estudiantes deben presentar algún certificado para acceder a ciertos equipos o servicios? Si es así, estaría bueno detallar qué tipo de certificados y cómo se verificaría su validez.\n*   **Iniciar Chat/Mandar Mensaje:** Entiendo que esto sería para comunicarse con el personal del laboratorio, ¿verdad? ¿O también entre estudiantes? Estaría bueno definir bien quién se comunica con quién y con qué propósito. Por ejemplo, si un estudiante tiene una duda sobre un equipo, ¿a quién le mandaría el mensaje? ¿Al técnico del laboratorio?\n*   **Administrar Catálogo:** ¿Quiénes serían los encargados de administrar el catálogo? ¿Solo el personal del laboratorio? ¿O también los tutores podrían agregar recursos a su área?\n*   **Reportar Observaciones:** Este caso de uso es clave. Me gustaría que me cuenten cómo lo pensaron en detalle. ¿Qué tipo de observaciones se reportarían? ¿Sobre el estado de los equipos? ¿Sobre el uso del aula? ¿Quiénes podrían reportar observaciones?\n\nEn general, me parece que la lista está muy bien, pero estaría bueno profundizar en estos puntos para asegurarnos de que el sistema sea lo más útil posible para todos.\n",
+        "role": "bot",
+        "time": "2025-10-27T20:37:12.390Z"
+      },
+      {
+        "content": "Te parece que te pase la transcripcion de las entrevistas que te hicimos para darte un contexto mayor?",
+        "role": "user",
+        "time": "2025-10-27T20:38:19.688Z"
+      },
+      {
+        "content": "¡Ah, buenísimo! Sí, por favor, pasame la transcripción de las entrevistas. Creo que me va a ayudar un montón a entender mejor el contexto y las necesidades específicas del laboratorio. Así puedo darles una devolución más precisa sobre los casos de uso y el diseño del sistema. ¡Dale nomás!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:38:22.110Z"
+      },
+      {
+        "content": "primer entrevista: Entrevistador: Buenas tardes, nosotros somos el grupo 6, conformado por Elías Alegre y Eliam Vargas, quienes van a entrevistarla, y por Hegemann Álbaro y Juan Pablo Vásquez, quienes llevarán el apunte de lo que se comente en la misma. Nosotros hemos leído la narrativa donde se presenta la problemática de su espacio; sin embargo, si lo desea, puede hacer una introducción de lo anterior y darnos un poco de contexto de lo que requiere.\nCliente: El laboratorio de medios es un espacio para brindar préstamos y servicios a estudiantes del ICSE, principalmente a los de la carrera de medios. Lo que nos estaba pasando es que nos costaba un montón que ellos encuentren el formulario en el  al se accede al pedido. Nosotros lo que tenemos ahora es un formulario de Google que está colgado en la página de la universidad, y lo que hacen los estudiantes es solicitar determinado pedido de equipamiento o también pueden solicitar uso del espacio. Algo que nos pasa con respecto al uso del espacio es que al pedido lo envían por mail y no nos queda registro de quién usó el espacio, qué computadora usó, etc. Por ejemplo, nos pasó que estudiantes tocaron un equipamiento que, al momento de que nosotros queríamos ir a usarlo, el elemento se encontraba desconfigurado y no existía registro de quién había sido el último que lo había tocado. Entonces nos gustaría también que el sistema nos registre la solicitud del espacio (que es el laboratorio de medios y otra aula más) y también sean registradas las solicitudes de elementos del laboratorio (ya sea computadora de edición, herramientas de sonido, etc.).\nPor otro lado, el laboratorio brinda el servicio de  cursos y talleres; por ejemplo, por ahora nosotros lanzamos  cuatro talleres, entonces los estudiantes se inscriben a los mismos a través de su email y yo les respondo su solicitud.\nActualmente los estudiantes, al momento de hacer el pedido, me notifican que quieren cierto elemento (cámara, micrófono, luz, trípode, etc.); ese formulario llega, yo lo miro y tengo que informarles uno por uno si el elemento está o no disponible, si ya está prestado, en qué fecha se puede prestar, etc. Por lo tanto, me gustaría que el sistema permita que el estudiante pueda ingresar a buscar determinado artículo y ya le aparezca su disponibilidad, unidades disponibles, fecha en la que se va a liberar, etc., de modo similar a como lo hacen las páginas para reservar vuelos. De esta manera nos ahorramos el “ida y vuelta” y todo podría hacerse de manera más ágil. Con los  cursos y talleres podríamos hacer algo similar, mostrándole al estudiante si quedan  pos, de qué trata el  curso/taller, quién lo dicta, etc.; algo así me imaginaba.\nEntrevistador: Dicho todo esto, vamos a pasar a  cubrir una serie de preguntas que preparamos con anterioridad. ¿Qué perfiles de usuarios principales tendrá el sistema (solo estudiantes y personal del laboratorio, o también docentes u otros actores)?\nCliente: Principalmente estudiantes, pero también puede ser utilizado por profesores.\nEntrevistador: ¿El sistema está pensado sólo para la carrera de medios audiovisuales o abarcará otras carreras?\nCliente: Sí, definitivamente.\nEntrevistador: ¿Hay algún sistema (por ejemplo, SIU, Moodle) con el  cual este nuevo software deba integrarse?\nCliente: Solamente con el SIU, para validar que el usuario pertenezca a la carrera.\nEntrevistador: ¿El alta de usuarios debe ser validada por alguien del laboratorio, se hace de manera automática con el correo registrado en el SIU/Moodle o prefiere que se utilice algún tipo de credencial a partir del DNI u otro identificativo?\nCliente: Deberá ser validada por el SIU.\nEntrevistador: En el caso del préstamo de equipamiento, ¿cómo debería manejarse la situación si el recurso solicitado no está disponible en la fecha pedida?\nCliente: Me gustaría que el sistema permita que el estudiante pueda ingresar a buscar determinado artículo y ya le aparezca su disponibilidad, unidades disponibles, fecha en la que se va a liberar, etc.\nEntrevistador: ¿Hay algún tipo de limitación con respecto a la solicitud de materiales? (ej.: 3 retiros por usuario).\nCliente: Sí, hay distintos tipos de pedidos. Hay pedidos especiales, donde se encuentran artículos de alta gama que solamente se prestan para tesis, para estudiantes prontos a recibirse o para proyectos avalados por la universidad; y existen los pedidos normales, donde se encuentran artículos que  cualquier estudiante de la carrera puede pedir. Por otro lado, un estudiante puede, si quiere, solicitar la cantidad de existencias que haya de ese artí lo; por ejemplo, si hay  cuatro cámaras disponibles, sin problema puede solicitar las cu atro. Cabe aclarar que los artículos no se prestan por un período mayor a 48 hs.\nEntrevistador: Para las tutorías, ¿cómo se asignan actualmente los tutores? ¿El sistema debe automatizar esa asignación o dejarla al administrador?\nCliente: Actualmente es manual, a través de un formulario. Me gustaría que el sistema tenga cargados los tutores que existen junto a su especialidad, los  cursos/talleres que da, fecha y horarios de dictado y  pos. También quiero que los estudiantes puedan seleccionar al tutor del taller al que quieran presentarse, ver toda esta información e inscribirse.\nEntrevistador: ¿El personal del laboratorio necesita generar reportes o estadísticas sobre el uso de los servicios?\nCliente: Sí, el sistema debería poder permitirlo. Eso nos ayudaría mucho; por ejemplo, a la hora de que se realiza una tutoría, quien la dicta al final puede tener un registro de  cuántos asistieron,  cuántos estudiantes faltaron,  cuántos se dieron de baja, etc. Incluso en los pedidos podría implementarse, por ejemplo, si un artículo llega dañado después de haber sido prestado, observaciones del artículo, en qué condiciones llegó, etc.\nEntrevistador: ¿El sistema debe permitir llevar un inventario detallado del equipamiento (estado, ubicación, mantenimientos)?\nCliente: Sí, actualmente nosotros lo tenemos todo registrado en un Excel que es compartido entre la sede de Ushuaia y Río Grande. Nos sería de mucha utilidad no tener que realizar modificaciones de manera tan manual.\nEntrevistador: ¿Qué canal de notificación prefieren priorizar: email institucional, notificaciones dentro de la plataforma, email personal, o las tres?\nCliente: Solo mail institucional, no personal. También podríamos pensar en una plataforma de comunicación.\nEntrevistador: ¿Cómo deberían configurarse las notificaciones que le llegan al administrador o al docente/estudiante?\nCliente: Estaría bueno que las notificaciones las podamos “dosificar”, que exista la opción de recibir todas las notificaciones o limitarlas.\nEntrevistador: ¿El sistema debe ser accesible desde dispositivos móviles además de computadoras?\nCliente: Sería increíble que pueda ser accesible tanto en la web como en un dispositivo móvil.\nEntrevistador: ¿Qué disponibilidad debería tener el sistema (ej.: 24/7, solo en horario administrativo)?\nCliente: 24/7 sería lo ideal.\nEntrevistador: ¿Cuántos estudiantes y  cuántos miembros del laboratorio se espera que usen el sistema?\nCliente: Estudiantes alrededor de 200 aproximadamente, y entre docentes y tutores somos 7.\nEntrevistador: ¿Cómo te gustaría que se resuelva un eventual conflicto de reserva? (ej.: dos estudiantes solicitan el mismo material al mismo tiempo).\nCliente: Por orden de llegada.\nEntrevistador: ¿Actualmente existe algún tipo de penalizaciones por mal uso, mora, o algún otro motivo?\nCliente: Por el momento no contamos con penalizaciones, pero sí sería oportuno que el sistema lo tenga. Actualmente nosotros tenemos una lista de estudiantes que ya no pueden realizar solicitudes o que devolvieron equipos en malas condiciones y podríamos incorporarlos al sistema llevando así un registro. Por otro lado, tenemos determinados artículos que no pueden prestarse a  cualquier persona; por ejemplo, el Gimbal, que es un estabilizador de cámara, solo puede ser prestado a personas que hayan realizado determinado  curso para manejarlo. Volviendo a las penalizaciones, podríamos llevar a cabo un sistema de colores, como verde, amarillo y rojo, que representen la condición en la que se encuentra el alumno. Supongamos que un estudiante está en color amarillo; si devuelve un artí lo tarde 3 veces pasaría a estar en rojo, o si rompe el artí lo o lo pierde pasa automáticamente a rojo, y que el estudiante pueda ver su condición. Podríamos pensar en algo como eso.\nEntrevistador: ¿Las penalizaciones serían iguales tanto para docentes como para alumnos?\nCliente: Sí.\nEntrevistador: ¿Cuánto duran las penalizaciones temporales?\nCliente: Pensando en el sistema de colores, quizás podría variar entre unos días, un mes y un  cuatrimestre dependiendo de la situación del estudiante. Deberíamos establecerlo.\nEntrevistador: ¿Se puede reservar material prestado?\nCliente: Sí, pero se debe llevar un registro de cómo se encontraba el material al momento de ser prestado y al momento de su devolución. De esta manera podemos saber qué estudiantes dañaron equipos, los perdieron, etc.\nEntrevistador: ¿Con  cuánto tiempo de antelación debe realizarse la reserva?\nCliente: No hay límite, puede hacerse incluso el mismo día; mientras esté disponible puede prestarse.\nEntrevistador: ¿Hay distintos límites dependiendo de los roles? (ej.: docente, administrador).\nCliente: En general, docentes y administradores no tienen el límite de tiempo de 48 hs. Ellos tienen prioridad y pueden reservar por el tiempo que necesiten.\n",
+        "role": "user",
+        "time": "2025-10-27T20:38:54.326Z"
+      },
+      {
+        "content": "¡Excelente! Ya con esta primera entrevista tengo un panorama mucho más claro de lo que necesitan.\n\nAlgunas cosas que me llamaron la atención y que creo que son importantes para el sistema:\n\n*   **Registro de uso del espacio:** Esto es fundamental. Necesitamos saber quién usó el laboratorio, qué equipos tocó, etc. La idea de registrar las solicitudes del espacio en el sistema es clave para evitar problemas como el que mencionaste de los equipos desconfigurados.\n*   **Disponibilidad de equipos en tiempo real:** ¡Me encanta la analogía con las páginas de reserva de vuelos! Poder ver la disponibilidad de los equipos, las unidades disponibles y las fechas de liberación sería un golazo.\n*   **Integración con el SIU:** Esto es imprescindible para validar la identidad de los estudiantes y asegurarnos de que solo los alumnos de la carrera de medios puedan acceder a los servicios.\n*   **Pedidos especiales vs. pedidos normales:** Es importante que el sistema distinga entre estos dos tipos de pedidos, ya que tienen diferentes requisitos y restricciones.\n*   **Sistema de penalizaciones:** La idea del sistema de colores (verde, amarillo, rojo) me parece muy interesante y fácil de entender. Estaría bueno implementarlo en el sistema para llevar un registro de los estudiantes que hacen mal uso de los equipos o que no cumplen con las normas.\n*   **Reportes y estadísticas:** Poder generar reportes sobre el uso de los servicios, la asistencia a los talleres, el estado de los equipos, etc., sería de gran ayuda para la gestión del laboratorio.\n\nEn resumen, creo que la entrevista fue muy útil para identificar las necesidades clave del laboratorio. ¡Ahora tengo una idea mucho más clara de lo que necesitamos!\n\n¿Quieren que siga revisando la segunda entrevista o prefieren que me concentre en algún aspecto en particular?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:38:58.562Z"
+      },
+      {
+        "content": "segunda: Segunda Entrevista\nNombre de la entrevistada: Natalia Ader\nPuesto de trabajo: Docente\nPunto de vista que representa: Administrativa principal del sistema\nFecha, hora y lugar de la entrevista: 15/9/2025 – 17:15 hs – Laboratorio de medios audiovisuales UNTDF Campus Ushuaia\nEstrategia utilizada: Estrategia Abierta, Estructura Diamante\nRoles: \nEntrevistadores: Eliam Vargas y Elías Alegre\nAnotadores:  Juan Pablo Vasquez y Albaro Hegemann \n\n\nEntrevistador: ¿En qué formato deberían generarse los reportes? (ej.: PDF, Excel, visualización en pantalla).\nCliente: Formato Excel.\nEntrevistador: ¿Te gustaría que esos reportes te sean enviados a tu mail, o que sean manejados por los administrativos?\nCliente: lo ideal sería que estén manejados por los administrativos.\nEntrevistador: ¿los reportes se harán de forma manual o serán generados de manera automática?\nCliente: automática. Por otro lado en los reportes deberían aparecer  cuántos alumnos se inscribieron a tutorías y  cuantos se dieron de baja,  cuántas cámaras, micrófonos, etc. fueron prestados, la condición en la que fueron devueltos, cantidad de elementos fueron devueltos en malas condiciones,  cuántos préstamos fueron devueltos después de el tiempo estipulado, etc. Básicamente un reporte de cada una de las actividades.\nEntrevistador:  Cuando se llenan los  pos de un  curso/taller, ¿el sistema debe permitir una lista de espera?\nCliente: debería entrar en una lista de espera, de esta manera se podría saber  cuántos alumnos quisieron inscribirse a un  curso o taller pero no pudieron.\nEntrevistador: ¿te gustaría que se estableciera un límite de faltas para evitar alumnos fantasmas y que de esta manera al exceder este límite sean dados de baja automáticamente del  curso o taller, permitiendo que el próximo alumno en la lista sea inscripto?\nCliente: sí me gustaría, un buen límite sería 3 faltas injustificadas.\nEntrevistador: ¿te gustaría que los tutores tengan su propio perfil dentro del sistema que sea visible por los usuarios, donde se pueda ver la información de disponibilidad y horarios y fechas en los que imparte los  cursos, o que exista algún numero de contacto con el que los usuarios se podrán contactar con el mismo?\nCliente: lo ideal es que exista un perfil, pero estaría bueno que en caso de consultas haya un chat entre docente/alumno. Ya que actualmente yo  cumplo la función de intermediaria entre el docente y el alumno, por ejemplo  cuando un alumno me escribe y me pide que le pregunte a “x” docente por los contenidos del taller y yo tengo que contactarme con él, esperar su respuesta y ahí poder contestarle al alumno.\nEntrevistador: ¿te gustaría que se puedan cargar archivos en el sistema, por ejemplo que en las pestañas correspondientes al taller se puedan cargar los planes de estudio, trabajos prácticos, etc?\nCliente: si, deberían poder cargarse archivos.\n\nEntrevistador: ¿La asistencia o inasistencia de los alumnos durante un taller o  curso debería ser cargada por el tutor en el sistema?\n\nCliente: si, totalmente.\n\nEntrevistador: ¿Te gustaría que en el sistema se generarán certificados? por ejemplo, después de cada clase un certificado de asistencia, o al finalizar un  curso o taller se genere un certificado de acreditación del  curso.\n\nCliente: si seria muy necesario, ya que los  cursos de la carrera son con acreditación. por ejemplo nosotros en la carrera tenemos materias optativas, entonces se implementó que si un alumno hacía tres  cursos y acredita los tres eso sería equivalente a un seminario, actualmente la verificación de si un alumno viene y acredita un curso la hago de manera manual, entonces si el sistema pudiera almacenar esa información de manera automática llevando un registro de a qué cursos asistió,  cuantos acreditó, etc. seria muy util.\n\nEntrevistador: ¿La integración con SIU debe limitarse solo a la validación de identidad o también traer datos académicos (carrera, año, regularidad)?\n\nCliente: si, ya que al momento de que un alumno solicite equipo para una materia y este se encuentre libre de la misma el sistema rechace la solicitud, por lo tanto el estudiante al momento de querer solicitar equipo debería aclarar la materia y el proyecto para el  cual necesita el equipo.\n\nEntrevistador: Imaginemos que un estudiante quiera solicitar equipación de alta gama, elementos solo habilitados para tesis/proyectos finales, y elementos que necesiten de algún  curso previo para ser solicitados ¿el estudiante que quiera solicitar estos equipos debería enviar/cargar en el sistema el certificado de acreditación de dicho curso para que sea verificado por algún administrador/docente/tutor?\n\nCliente: si, sería bueno.\nEntrevistador: en  anto a penalizaciones tenemos un par de propuestas, teníamos pensado un sistema basado en colores como se había comentado en la entrevista anterior, posiblemente en una gama de verde, amarillo, naranja , rojo y bloqueado que represente el nivel de comportamiento en el que se en entre el alumno. por otro lado podemos plantear un sistema en el que por determinado incumplimiento se te suspende por una semana, al pasar esa semana el alumno pasa a estar en un “periodo de expiración” en el que si vuelve a cometer una falta la amonestación pasa a ser de 2 semanas y así sucesivamente, pero al terminar el periodo de expiración el alumno vuelve a estar limpio por así decirlo.\n\nCliente: podríamos hacer como una mezcla de ambas opciones, por un lado los incumplimientos deberían ser acumulativos hasta cierto límite, para evitar que el alumno cometa una falta cada dos semanas de manera intencional. \n\nEntrevistador: un alumno que se encuentra en alguno de los colores mas altos (amarillo y rojo) ¿tendrá ese nivel de comportamiento de forma permanente o puede volver a verde en algún momento por buen comportamiento?\n\nCliente: podríamos pensar en un reseteo anual donde los alumnos vuelven a verde al comenzar un nuevo año.\n\nEntrevistador: ¿el usuario debería poder ver en su perfil el nivel de comportamiento en el que está y su historial de penalizaciones?\n\nCliente: si, pero los únicos que pueden acceder a esa información seamos los administradores, los docentes y el alumno que es dueño del perfil.\n\nEntrevistador: ¿las penalizaciones sólo aplican para estudiantes?\n\nCliente: deberían aplicar para todos los usuarios, la única diferencia que habría es que las penalizaciones a docentes o administrativos sólo serían por roturas de equipo, no por llegada tarde. Algo que hay que tener en  cuenta es que si un alumno rompe/pierde determinado equipo o alguna parte del equipo y este la repone, no se le aplicará ninguna penalización, y se guardará la información en el sistema de que el alumno repuso el material dañado.\n\nEntrevistador: ¿un administrativo tendrá la facultad de perdonar sanciones?\n\nCliente: si.\n\nEntrevistador: ¿podría ser más específica en  cuanto a qué parámetros debe  cumplir el sistema para determinar en qué nivel de comportamiento se entra un alumno?\n\nCliente: si, el usuario normal es verde, una llegada tarde pasa a amarillo (una semana de sancion), dos llegadas tarde te ponen en naranja (dos semanas de sancion), al igual que una rotura/perdida de equipo, una llegada tarde más te pone en rojo (un  cuatrimestre de sancion) y una nueva rotura/perdida en bloqueado. Lo único que habría que tener en  cuenta es que la opción del bloqueo al ser tan grave debería ser revisada por un administrativo y no ser colocada automáticamente.\n",
+        "role": "user",
+        "time": "2025-10-27T20:39:42.806Z"
+      },
+      {
+        "content": "¡Buenísimo, esta segunda entrevista clarifica aún más las cosas!\n\nAcá van mis comentarios y reflexiones sobre lo que charlaron:\n\n*   **Reportes automáticos en Excel:** ¡Excelente! Esto nos va a ahorrar muchísimo tiempo y esfuerzo. Me parece fundamental que los reportes incluyan información sobre inscripciones y bajas a tutorías, préstamos de equipos, estado de devolución, etc. Cuanto más detallados sean los reportes, mejor podremos analizar el uso de los recursos del laboratorio.\n*   **Lista de espera para cursos/talleres:** ¡Imprescindible! Esto nos va a permitir saber cuánta demanda tenemos para cada curso/taller y, en caso de que alguien se dé de baja, podremos contactar a los primeros de la lista de espera.\n*   **Límite de faltas:** Me parece muy bien establecer un límite de 3 faltas injustificadas para evitar alumnos fantasmas. Así le damos la oportunidad a otros estudiantes de participar en los cursos/talleres.\n*   **Perfil de tutores con chat:** ¡Me encanta la idea! Poder ver la información de disponibilidad de los tutores y tener un chat directo con ellos sería genial para los estudiantes. Así evitamos la intermediación y agilizamos la comunicación.\n*   **Carga de archivos:** ¡Fundamental! Poder cargar planes de estudio, trabajos prácticos, etc., en la plataforma sería de gran utilidad tanto para los tutores como para los estudiantes.\n*   **Certificados automáticos:** ¡Imprescindible! Los cursos de la carrera son con acreditación, así que poder generar certificados de asistencia y acreditación de forma automática sería un golazo. Además, me encanta la idea de que el sistema lleve un registro de los cursos que cada estudiante asistió y acreditó, así podemos saber si cumplen con los requisitos para los seminarios.\n*   **Integración con SIU (más allá de la validación):** ¡Excelente! Poder traer datos académicos como la carrera, el año y la regularidad de los estudiantes sería de gran utilidad para verificar si cumplen con los requisitos para solicitar equipos.\n*   **Certificados para equipos de alta gama:** ¡Muy bien pensado! Si un estudiante quiere solicitar equipos de alta gama o que requieren un curso previo, deberá cargar el certificado correspondiente para que sea verificado por un administrador/docente/tutor.\n*   **Sistema de penalizaciones (combinación de opciones):** Me gusta la idea de combinar el sistema de colores con las suspensiones acumulativas. Así evitamos que los estudiantes cometan faltas intencionalmente cada cierto tiempo. Y me parece muy bien que las penalizaciones sean anuales, así todos tienen la oportunidad de empezar de nuevo.\n*   **Penalizaciones para todos los usuarios (con diferencias):** ¡Excelente! Las penalizaciones deben aplicar para todos los usuarios, pero con diferencias según el rol. Por ejemplo, las llegadas tarde solo aplicarían para los estudiantes, mientras que las roturas de equipos aplicarían para todos. Y me parece muy bien que si un estudiante repone un equipo dañado, no se le aplique ninguna penalización.\n*   **Parámetros para el sistema de penalizaciones:** ¡Muy claro! Me parece que los parámetros que definieron para el sistema de penalizaciones son muy claros y lógicos. Así todos sabrán cuáles son las consecuencias de sus actos.\n\nEn resumen, creo que esta segunda entrevista fue muy valiosa para definir los detalles del sistema. ¡Ahora tengo una idea mucho más clara de cómo debe funcionar!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:39:51.526Z"
+      },
+      {
+        "content": "con la información de las entrevistas que te pasé, re analiza los CU que te envié",
+        "role": "user",
+        "time": "2025-10-27T20:40:50.666Z"
+      },
+      {
+        "content": "¡Dale, perfecto! Con la información de las entrevistas, puedo darles una mirada más afinada a los casos de uso que me pasaron. Acá va mi análisis:\n\n**Casos de uso revisados y comentados:**\n\n*   **Registrarse al sistema:** OK (Validación con SIU)\n*   **Iniciar sesión:** OK\n*   **Cerrar sesión:** OK\n*   **Ver Perfil:** OK (Debería mostrar el nivel de comportamiento y el historial de penalizaciones, visible solo para el usuario, administradores y docentes)\n*   **Modificar Perfil:** OK\n*   **Iniciar Chat/Mandar Mensaje:** OK (Entre estudiantes y tutores/personal del laboratorio)\n*   **Ver Notificaciones:** OK (Solo mail institucional y dentro de la plataforma)\n*   **Gestionar Notificaciones:** OK (Poder elegir qué tipo de notificaciones recibir)\n*   **Ver catálogo:** OK\n*   **Administrar Catálogo:** OK (Solo personal del laboratorio)\n*   **Agregar recurso:** OK\n*   **Crear Curso:** OK\n*   **Buscar recurso disponible:** OK (Mostrar disponibilidad en tiempo real)\n*   **Ver detalles de recurso:** OK\n*   **Editar detalles de equipamiento:** OK\n*   **Reservar Equipamiento:** OK (Distinguir entre pedidos especiales y normales, verificar si el usuario cumple con los requisitos para equipos de alta gama)\n*   **Reservar Espacio:** OK (Registrar quién usó el espacio y qué equipos tocó)\n*   **Inscribirse al curso:** OK (Si el curso está lleno, agregar a la lista de espera)\n*   **Ver lista de espera:** OK\n*   **Darse de baja del curso:** OK (Avisar al siguiente en la lista de espera)\n*   **Vincularse a curso:** OK\n*   **Administrar Curso:** OK\n*   **Reportar asistencia:** OK (El tutor debe poder cargar la asistencia)\n*   **Reportar baja:** OK\n*   **Finalizar Reserva:** OK (Registrar el estado del equipo al momento de la devolución)\n*   **Reportar Observaciones:** OK (Sobre el estado de los equipos, el uso del aula, etc. Tanto estudiantes como personal del laboratorio deberían poder reportar)\n*   **Ver Información de usuarios:** OK\n*   **Administrar usuarios:** OK\n*   **Perdonar penalización:** OK (Solo administradores)\n*   **Bloquear Usuario:** OK (Revisado por un administrador)\n*   **Cargar Archivos:** OK (Planes de estudio, trabajos prácticos, etc.)\n*   **Verificar validez de certificados:** OK (Para equipos de alta gama o que requieran un curso previo)\n*   **Ver reportes trimestrales:** OK (Reportes automáticos en Excel con información detallada sobre el uso de los servicios)\n*   **Generar Certificados:** OK (Certificados de asistencia y acreditación de cursos)\n\n**Nuevos casos de uso sugeridos:**\n\n*   **Resetear penalizaciones:** (Para el reseteo anual de las penalizaciones)\n\nEn general, me parece que la lista de casos de uso es muy completa y abarca todas las funcionalidades necesarias para el sistema. Con las aclaraciones y sugerencias que les di, creo que están en muy buen camino.\n\n¿Qué les parece? ¿Hay algo que quieran discutir o modificar?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:40:58.868Z"
+      },
+      {
+        "content": "Te parece bien que el encargado de crear un determinado curso y agregarlo al catalogo sea el usuario Administrativo?",
+        "role": "user",
+        "time": "2025-10-27T20:42:28.062Z"
+      },
+      {
+        "content": "Sí, me parece perfecto que el usuario Administrativo sea el encargado de crear los cursos y agregarlos al catálogo. Tiene sentido que esta tarea recaiga en el personal del laboratorio, ya que son ellos quienes tienen la visión general de la oferta de cursos y talleres. Además, así nos aseguramos de que la información sea precisa y esté actualizada.\n\n¿Qué otras tareas o responsabilidades pensaban asignarle al usuario Administrativo?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:42:30.335Z"
+      },
+      {
+        "content": "cual te gustaria que sea el limite de la lista de espera?",
+        "role": "user",
+        "time": "2025-10-27T20:42:59.448Z"
+      },
+      {
+        "content": "Mmm, buena pregunta. A ver, considerando la cantidad de estudiantes que tenemos y el tamaño promedio de los cursos, yo diría que un límite de **10 personas** en la lista de espera estaría bien.\n\n¿Por qué 10? Porque creo que es un número razonable para darle una oportunidad a los interesados, pero tampoco generar falsas expectativas. Si la lista de espera es demasiado larga, es probable que la mayoría de las personas no lleguen a entrar al curso y se frustren.\n\nAdemás, si vemos que hay cursos que constantemente tienen listas de espera muy largas, podemos evaluar la posibilidad de ofrecer más ediciones o ampliar el número de plazas.\n\n¿Qué les parece a ustedes? ¿Creen que 10 es un número adecuado o prefieren otro límite?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:43:04.544Z"
+      },
+      {
+        "content": "El usuario debe ser capaz de visualizar el equipamiento siendo que esta suspendido y no puede reservarlo?",
+        "role": "user",
+        "time": "2025-10-27T20:45:14.038Z"
+      },
+      {
+        "content": "Sí, me parece importante que el usuario pueda visualizar el equipamiento aunque esté suspendido y no pueda reservarlo.\n\n¿Por qué? Porque así el usuario puede estar al tanto de lo que ofrece el laboratorio y planificar sus proyectos a futuro. Aunque en ese momento no pueda acceder a los equipos, puede ver qué hay disponible y tenerlo en cuenta para cuando termine su suspensión.\n\nAdemás, ver el catálogo de equipos puede ser útil para que el usuario entienda por qué fue suspendido. Por ejemplo, si fue suspendido por no haber realizado el curso para manejar el Gimbal, al ver el catálogo puede darse cuenta de que necesita hacer el curso para poder acceder a ese equipo en el futuro.\n\nEn resumen, creo que mostrar el catálogo de equipos a los usuarios suspendidos es una buena forma de mantenerlos informados y motivarlos a cumplir con las normas del laboratorio.\n",
+        "role": "bot",
+        "time": "2025-10-27T20:45:17.266Z"
+      },
+      {
+        "content": "es correcto que el sistema trate a los cursos, talleres y tutorias de la misma manera?",
+        "role": "user",
+        "time": "2025-10-27T20:47:55.190Z"
+      },
+      {
+        "content": "Mmm, ahí me generaste una duda interesante. A ver, en principio, los cursos, talleres y tutorías comparten algunas características:\n\n*   Son servicios que ofrece el laboratorio.\n*   Requieren inscripción previa.\n*   Tienen un cupo limitado.\n*   Pueden generar certificados.\n\nPero también tienen diferencias importantes:\n\n*   Los cursos y talleres suelen tener una duración y un programa definidos, mientras que las tutorías son más personalizadas y flexibles.\n*   Los cursos suelen ser más teóricos, los talleres más prácticos y las tutorías más individuales.\n*   Los cursos y talleres pueden tener requisitos previos, mientras que las tutorías suelen ser más abiertas.\n\nEntonces, ¿cómo debería tratarlos el sistema? Yo diría que:\n\n*   **A nivel de catálogo y búsqueda:** Podrían tratarse de la misma manera, mostrando una lista unificada de cursos, talleres y tutorías con filtros para cada tipo.\n*   **A nivel de inscripción y gestión:** Podrían tener algunas diferencias. Por ejemplo, para los cursos y talleres podría ser útil mostrar el programa, los requisitos previos y el número de clases, mientras que para las tutorías podría ser más importante mostrar la disponibilidad del tutor y los temas que puede abordar.\n*   **A nivel de reportes y estadísticas:** Podrían generarse reportes separados para cada tipo de servicio, mostrando información específica de cada uno.\n\nEn resumen, creo que el sistema debería tratar a los cursos, talleres y tutorías de manera similar en algunos aspectos, pero también tener en cuenta sus diferencias para ofrecer una mejor experiencia a los usuarios y facilitar la gestión del laboratorio.\n\n¿Qué opinan ustedes? ¿Cómo lo habían pensado?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:48:00.254Z"
+      },
+      {
+        "content": "un usuario penalizado/bloqueado sabemos que no puede reservar equipamiento, pero puede inscribirse a cursos, talleres o tutorias?",
+        "role": "user",
+        "time": "2025-10-27T20:49:24.293Z"
+      },
+      {
+        "content": "Mmm, ahí me hacés pensar... A ver, si un usuario está penalizado/bloqueado, entiendo que es porque incumplió alguna norma del laboratorio. Entonces, la pregunta es: ¿queremos que esa penalización se aplique solo al préstamo de equipos o a todos los servicios que ofrece el laboratorio?\n\nYo diría que depende del motivo de la penalización. Si el usuario fue penalizado por mal uso de los equipos, tiene sentido que no pueda reservarlos, pero ¿por qué no podría inscribirse a un curso o taller?\n\nEn cambio, si el usuario fue penalizado por una falta grave, como el robo de un equipo, quizás sí tenga sentido que no pueda acceder a ningún servicio del laboratorio, incluyendo cursos, talleres y tutorías.\n\nEntonces, mi propuesta sería:\n\n*   **Penalizaciones leves (amarillo/naranja):** El usuario no puede reservar equipos, pero sí puede inscribirse a cursos, talleres y tutorías.\n*   **Penalizaciones graves (rojo/bloqueado):** El usuario no puede acceder a ningún servicio del laboratorio.\n\nAdemás, podríamos mostrar un mensaje claro al usuario cuando intente inscribirse a un curso o taller, indicando que está penalizado y que, dependiendo del motivo de la penalización, podría no poder acceder a ese servicio.\n\n¿Qué les parece? ¿Tiene sentido esta diferenciación o prefieren que la penalización se aplique a todos los servicios por igual?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:49:29.378Z"
+      },
+      {
+        "content": "alguna otra cosa que te gustaría aclarar que es importante que tengamos en cuenta?",
+        "role": "user",
+        "time": "2025-10-27T20:55:09.904Z"
+      },
+      {
+        "content": "A ver, pensando en todo lo que hablamos hasta ahora, creo que hay algunas cosas que me gustaría reforzar para que las tengan bien presentes:\n\n*   **La importancia de la experiencia del usuario:** Recuerden que el sistema debe ser fácil de usar y entender tanto para los estudiantes como para el personal del laboratorio. Presten atención al diseño de la interfaz, la claridad de los mensajes y la fluidez de los procesos. Un sistema intuitivo y amigable va a ser mucho más utilizado y valorado.\n*   **La seguridad de los datos:** Es fundamental proteger la información personal de los usuarios y garantizar la confidencialidad de los datos del laboratorio. Implementen medidas de seguridad robustas y asegúrense de cumplir con la normativa vigente en materia de protección de datos.\n*   **La flexibilidad del sistema:** El laboratorio está en constante evolución, así que el sistema debe ser lo suficientemente flexible para adaptarse a los cambios y nuevas necesidades que puedan surgir en el futuro. Piensen en un diseño modular y escalable que permita agregar nuevas funcionalidades y servicios sin mayores complicaciones.\n*   **La comunicación con los usuarios:** Es importante mantener una comunicación fluida y transparente con los usuarios del sistema. Implementen un sistema de notificaciones eficiente y asegúrense de que los usuarios estén al tanto de las novedades, cambios y problemas que puedan surgir.\n*   **La documentación del sistema:** No se olviden de documentar el sistema de forma clara y completa. Esto va a ser fundamental para el mantenimiento, la actualización y la capacitación de nuevos usuarios.\n\nEn resumen, recuerden que el sistema no es solo un conjunto de funcionalidades, sino una herramienta que debe facilitar el trabajo del laboratorio y mejorar la experiencia de los usuarios. Presten atención a los detalles, prioricen la calidad y no duden en consultarme si tienen alguna duda o inquietud. ¡Estoy acá para ayudarlos!\n",
+        "role": "bot",
+        "time": "2025-10-27T20:55:14.911Z"
+      }
+    ]
+  },
+  {
+    "id": "addc203f-55f8-408d-9749-fe0c02f511e3",
+    "source": "API/Embed",
+    "sessionId": "addc203f-55f8-408d-9749-fe0c02f511e3",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Que cosas curiosas consideras que deberia tener en cuenta?",
+        "role": "user",
+        "time": "2025-10-27T20:42:41.184Z"
+      },
+      {
+        "content": "¡Qué buena pregunta! A ver, pensando en el día a día del laboratorio, hay algunas cositas que quizás no son evidentes pero que marcarían la diferencia:\n\n*   **Prioridades según materias y proyectos:** Como charlamos, no todos los estudiantes tienen la misma urgencia. Los de materias de \"proyecto\" (talleres de producción audiovisual) tienen prioridad, y dentro de esos, los de \"Proyecto 4\" (el último nivel) aún más. Sería genial que el sistema tenga en cuenta esto al gestionar las reservas, quizás con algún tipo de ponderación automática.\n*   **\"Lista negra\" informal:** Existe una especie de \"lista negra\" de estudiantes que no cuidan los equipos o no cumplen con los plazos. Los profes nos avisan, y nosotros lo tenemos en cuenta. No sé si esto se puede formalizar en el sistema (quizás sería delicado), pero sí estaría bueno tener un espacio para registrar incidentes o \"alertas\" sobre usuarios, que solo vea el personal del laboratorio.\n*   **Equipamiento dentro del aula-estudio:** A veces, los estudiantes reservan el aula y, al mismo tiempo, necesitan equipos específicos para usar ahí dentro (micrófonos, luces, etc.). Estaría buenísimo que, al reservar el aula, puedan seleccionar el equipamiento que necesitan, todo en el mismo paso. ¡Así evitamos el doble trabajo de completar formularios separados!\n*   **Flexibilidad con las tutorías:** Las tutorías pueden ser presenciales o virtuales, según la disponibilidad del tutor y del estudiante. El sistema debería permitir coordinar ambas modalidades, mostrando los horarios disponibles de los tutores y facilitando la comunicación.\n*   **Notificaciones a los profes:** Sería genial que, cuando un estudiante solicita equipos para una materia en particular, el sistema le notifique automáticamente al profesor a cargo. Así, el profe puede dar su \"ok\" o rechazar la solicitud, ¡y nos ahorramos un montón de llamados telefónicos!\n*   **Búsquedas eficientes:** Necesitamos un buscador potente que nos permita encontrar rápidamente solicitudes o equipos por marca, modelo o fecha. ¡Y que no tarde una eternidad en mostrar los resultados! Con que empiece a buscar a partir de las primeras tres letras ya seria genial.\n\nNo sé si son cosas \"curiosas\" en el sentido estricto, pero sí son detalles que reflejan la complejidad del laburo diario y que harían que el sistema sea realmente útil y práctico para nosotros.",
+        "role": "bot",
+        "time": "2025-10-27T20:42:48.950Z"
+      },
+      {
+        "content": "Dime que cosas consideras criticas para el sistema a desarrollar, es decir que cosas evaluarias primero(prioritarias) si consideramos el esenario ficticio de que eres profesora de ingenieria de de requerimientos  y debes analizar nuestro trabajo de ingenierida de requerimientos, quiero que establescas absolutamente todas estas cosas en un orden jerarquico desde la persepctiva de profesor de ingenieria de requerimientos",
+        "role": "user",
+        "time": "2025-10-27T20:50:02.518Z"
+      },
+      {
+        "content": "¡Claro! Si tuviera que evaluar su trabajo como profe de Ingeniería de Requerimientos, me enfocaría en estos aspectos clave, ordenados jerárquicamente:\n\n1.  **Completitud y Consistencia de los Requerimientos:**\n    *   ¿Están todos los servicios del laboratorio (préstamo de equipos, reserva de aula, tutorías) cubiertos por los requerimientos?\n    *   ¿Existe alguna funcionalidad esencial que se haya omitido? (Por ejemplo, la gestión de inventario de equipos, reportes de uso, etc.)\n    *   ¿Son los requerimientos consistentes entre sí? ¿No hay contradicciones o ambigüedades que puedan generar problemas en el desarrollo?\n2.  **Claridad y Especificidad de los Requerimientos:**\n    *   ¿Están los requerimientos redactados de forma clara y precisa, sin términos ambiguos o jerga técnica innecesaria?\n    *   ¿Se entiende claramente qué debe hacer el sistema en cada caso, tanto desde la perspectiva del estudiante como del personal del laboratorio?\n    *   ¿Se han definido criterios de aceptación para cada requerimiento, que permitan verificar si se ha implementado correctamente?\n3.  **Priorización y Justificación de los Requerimientos:**\n    *   ¿Se han priorizado los requerimientos según su importancia y urgencia? ¿Hay una clara distinción entre los requerimientos \"mínimos\" y los \"deseables\"?\n    *   ¿Se justifica la priorización de cada requerimiento? ¿Se explica por qué es importante para el laboratorio y cómo contribuye a resolver los problemas actuales?\n4.  **Trazabilidad de los Requerimientos:**\n    *   ¿Se puede rastrear cada requerimiento desde su origen (necesidad del laboratorio) hasta su implementación en el sistema?\n    *   ¿Se han documentado las decisiones de diseño que se tomaron en base a cada requerimiento?\n    *   ¿Se puede verificar que cada requerimiento ha sido probado y validado correctamente?\n5.  **Viabilidad y Factibilidad de los Requerimientos:**\n    *   ¿Son los requerimientos técnicamente viables y factibles de implementar con los recursos disponibles?\n    *   ¿Se han considerado las limitaciones de tiempo, presupuesto y tecnología al definir los requerimientos?\n    *   ¿Se han evaluado los riesgos asociados a cada requerimiento y se han propuesto soluciones alternativas?\n6.  **Validación y Verificación de los Requerimientos:**\n    *   ¿Se han validado los requerimientos con los usuarios finales (estudiantes y personal del laboratorio)?\n    *   ¿Se ha obtenido su feedback y se han realizado ajustes en base a sus comentarios?\n    *   ¿Se han verificado los requerimientos para asegurar que cumplen con los estándares de calidad y seguridad?\n\nEn resumen, como profe de Ingeniería de Requerimientos, buscaría que su trabajo sea **completo, claro, priorizado, trazable, viable y validado**. ¡Y que demuestre que han entendido las necesidades reales del laboratorio y que han propuesto una solución que realmente funcione!",
+        "role": "bot",
+        "time": "2025-10-27T20:50:08.572Z"
+      }
+    ]
+  },
+  {
+    "id": "071f2e7d-6bfc-4b80-a5aa-8e20be9c6360",
+    "source": "API/Embed",
+    "sessionId": "071f2e7d-6bfc-4b80-a5aa-8e20be9c6360",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Hola cliente crack",
+        "role": "user",
+        "time": "2025-10-27T20:37:11.114Z"
+      },
+      {
+        "content": "Hola! Directora Natalia del Laboratorio de Medios Audiovisuales de la UNTDF, a tu disposición. Contame, ¿en qué andan trabajando? ¿Cómo va ese sistema que nos va a salvar la vida? 😄\n",
+        "role": "bot",
+        "time": "2025-10-27T20:37:13.755Z"
+      },
+      {
+        "content": "Me recordas que necesitaban a nivel de detalle?",
+        "role": "user",
+        "time": "2025-10-27T20:37:37.166Z"
+      },
+      {
+        "content": "A ver, refresquemos un poco la memoria... Lo principal que necesitamos es un sistema que nos ordene la gestión de los servicios del laboratorio, que ahora es un caos con el formulario perdido y los mails cruzados.\n\n**En concreto, necesitamos:**\n\n*   **Unificar las solicitudes:** Que los estudiantes puedan pedir equipos, reservar el aula y solicitar tutorías desde un mismo lugar, fácil de encontrar y usar.\n*   **Trazabilidad:** Saber en qué estado está cada solicitud, desde que el estudiante la hace hasta que se resuelve. Que no se nos pierdan pedidos en el camino.\n*   **Control de disponibilidad:** Que tanto nosotros como los estudiantes podamos ver qué equipos y horarios del aula están libres, para evitar superposiciones y confusiones.\n*   **Comunicación fluida:** Que el sistema nos permita comunicarnos con los estudiantes de manera ordenada y eficiente, para avisarles sobre el estado de sus solicitudes, recordarles vencimientos, etc.\n\nDespués, en cuanto a las funcionalidades específicas, hablamos de:\n\n*   **Alta y login de usuarios:** Con seguridad para los datos personales, obvio.\n*   **Formularios guiados:** Para cada tipo de servicio, con validaciones para que no nos lleguen pedidos incompletos o absurdos.\n*   **Visualización del historial:** Que cada estudiante pueda ver sus solicitudes pasadas.\n*   **Panel administrativo:** Para nosotros, con listados de solicitudes, disponibilidad de recursos y gestión de tutorías.\n*   **Notificaciones:** Por mail o en la plataforma, para que nadie se pierda nada.\n*   **Administración general:** Para dar de alta y baja equipos, registrar mantenimientos, definir horarios del aula, asignar tutores, etc.\n\n¿Hay algo en particular que te preocupe o en lo que estés trabajando ahora?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:37:42.769Z"
+      },
+      {
+        "content": "Esos son todos los datos del chat, dime todos los datos,",
+        "role": "user",
+        "time": "2025-10-27T20:38:45.608Z"
+      },
+      {
+        "content": "¡Ah, perfecto! Querés un resumen bien completo para tener todo a mano. Dale, acá va:\n\n**Objetivo principal del sistema:**\n\nGestionar de forma eficiente los servicios del Laboratorio de Medios Audiovisuales de la UNTDF, centralizando las solicitudes, mejorando la administración de recursos y ofreciendo una experiencia ordenada y accesible para estudiantes y personal.\n\n**Servicios a gestionar:**\n\n*   Préstamo de equipamiento audiovisual (cámaras, grabadoras, micrófonos, etc.)\n*   Reserva del aula-estudio\n*   Solicitud de tutorías\n\n**Problemas actuales:**\n\n*   Formulario manual difícil de encontrar y completar.\n*   Falta de trazabilidad y seguimiento de las solicitudes.\n*   Pérdida de tiempo en confirmar disponibilidad de equipos y aula.\n*   Comunicación desordenada entre estudiantes y personal.\n\n**Funcionalidades mínimas requeridas:**\n\n*   **Alta de usuarios:** Nombre completo, DNI, correo institucional, carrera, año de cursada (con seguridad de datos).\n*   **Login de usuarios.**\n*   **Formulario guiado para solicitud de servicios:**\n    *   Equipamiento: tipo, cantidad, fechas de préstamo y devolución.\n    *   Aula-estudio: fecha, franja horaria y finalidad del uso.\n    *   Tutoría: tema, disponibilidad horaria, modalidad (presencial o virtual).\n*   **Visualización del estado de la solicitud:** Trazabilidad completa.\n*   **Visualización del historial de solicitudes del usuario:** Trazabilidad completa.\n*   **Panel administrativo para el equipo del laboratorio:**\n    *   Listado de solicitudes pendientes, aprobadas y rechazadas.\n    *   Disponibilidad actualizada de equipamiento y del aula.\n    *   Asignación y seguimiento de tutorías.\n*   **Sistema de notificaciones:** Por email o en la plataforma.\n*   **Panel de administración general:** Gestión de recursos (altas, bajas, mantenimiento), horarios del aula, asignación de tutores.\n\n**Expectativas y prioridades:**\n\n*   Que la aplicación resuelva los problemas de gestión actuales.\n*   Que las funcionalidades sean fáciles de usar tanto para estudiantes como para el personal.\n*   Que los paneles de administración sean claros y permitan tener una visión general de la situación.\n*   Que la experiencia del usuario sea ordenada y eficiente.\n\n**Información adicional valiosa extraída de la entrevista:**\n\n*   **Pedidos especiales:** Para tesistas o docentes con proyectos específicos (tiempos de préstamo más flexibles).\n*   **Prioridades en la reserva del aula:** Materias de proyecto (talleres prácticos), priorizando proyectos de niveles más avanzados (Proyecto 4 > Proyecto 3 > Proyecto 2 > Proyecto 1).\n*   **Lista negra:** Estudiantes con mal historial en el uso de equipos (consulta con el docente a cargo).\n*   **Reglamento interno:** Define tiempos de anticipación para los pedidos (48 hs), plazos de préstamo, etc.\n*   **Solicitud de equipamiento al reservar el aula:** Integrar ambas solicitudes en un mismo proceso.\n*   **Tutorías:** Presenciales (horarios fijos) o virtuales (a coordinar).\n*   **Notificaciones de cancelaciones:** A estudiantes, tutores, docentes (si aplica) y personal del laboratorio.\n*   **Evaluación de la confiabilidad de los alumnos:** Sistema de reporte post-devolución (estados predefinidos: \"todo correcto\", \"con observaciones\" + campo de texto).\n*   **Búsquedas:** Por material (marca y modelo), fecha. Sugerencia de autocompletado a partir de 3 letras. Tiempo de respuesta menor a 5 segundos (idealmente 3).\n*   **Servicios a terceros (futuro):** Considerar una sección para solicitudes externas (instituciones, escuelas, etc.).\n*   **Integración con CEU Guaraní:** Validar a los estudiantes.\n\n¿Te sirve este resumen? ¿Necesitás algo más específico?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:38:53.098Z"
+      },
+      {
+        "content": "Exelente,ahora dame toda tu charla hechas desde tu raiz, todo loq ue te dije y me responfiste en formato chat",
+        "role": "user",
+        "time": "2025-10-27T20:41:31.503Z"
+      },
+      {
+        "content": "¡Dale, ahí va! Como si estuviéramos charlando ahora mismo:\n\n**Yo:** Hola! Directora Natalia del Laboratorio de Medios Audiovisuales de la UNTDF, a tu disposición. Contame, ¿en qué andan trabajando? ¿Cómo va ese sistema que nos va a salvar la vida? 😄\n\n**Vos:** Me recordas que necesitaban a nivel de detalle?\n\n**Yo:** A ver, refresquemos un poco la memoria... Lo principal que necesitamos es un sistema que nos ordene la gestión de los servicios del laboratorio, que ahora es un caos con el formulario perdido y los mails cruzados.\n\nEn concreto, necesitamos:\n\n*   Unificar las solicitudes: Que los estudiantes puedan pedir equipos, reservar el aula y solicitar tutorías desde un mismo lugar, fácil de encontrar y usar.\n*   Trazabilidad: Saber en qué estado está cada solicitud, desde que el estudiante la hace hasta que se resuelve. Que no se nos pierdan pedidos en el camino.\n*   Control de disponibilidad: Que tanto nosotros como los estudiantes podamos ver qué equipos y horarios del aula están libres, para evitar superposiciones y confusiones.\n*   Comunicación fluida: Que el sistema nos permita comunicarnos con los estudiantes de manera ordenada y eficiente, para avisarles sobre el estado de sus solicitudes, recordarles vencimientos, etc.\n\nDespués, en cuanto a las funcionalidades específicas, hablamos de:\n\n*   Alta y login de usuarios: Con seguridad para los datos personales, obvio.\n*   Formularios guiados: Para cada tipo de servicio, con validaciones para que no nos lleguen pedidos incompletos o absurdos.\n*   Visualización del historial: Que cada estudiante pueda ver sus solicitudes pasadas.\n*   Panel administrativo: Para nosotros, con listados de solicitudes, disponibilidad de recursos y gestión de tutorías.\n*   Notificaciones: Por mail o en la plataforma, para que nadie se pierda nada.\n*   Administración general: Para dar de alta y baja equipos, registrar mantenimientos, definir horarios del aula, asignar tutores, etc.\n\n¿Hay algo en particular que te preocupe o en lo que estés trabajando ahora?\n\n**Vos:** Esos son todos los datos del chat, dime todos los datos,\n\n**Yo:** ¡Ah, perfecto! Querés un resumen bien completo para tener todo a mano. Dale, acá va:\n\nObjetivo principal del sistema:\n\nGestionar de forma eficiente los servicios del Laboratorio de Medios Audiovisuales de la UNTDF, centralizando las solicitudes, mejorando la administración de recursos y ofreciendo una experiencia ordenada y accesible para estudiantes y personal.\n\nServicios a gestionar:\n\n*   Préstamo de equipamiento audiovisual (cámaras, grabadoras, micrófonos, etc.)\n*   Reserva del aula-estudio\n*   Solicitud de tutorías\n\nProblemas actuales:\n\n*   Formulario manual difícil de encontrar y completar.\n*   Falta de trazabilidad y seguimiento de las solicitudes.\n*   Pérdida de tiempo en confirmar disponibilidad de equipos y aula.\n*   Comunicación desordenada entre estudiantes y personal.\n\nFuncionalidades mínimas requeridas:\n\n*   Alta de usuarios: Nombre completo, DNI, correo institucional, carrera, año de cursada (con seguridad de datos).\n*   Login de usuarios.\n*   Formulario guiado para solicitud de servicios:\n    *   Equipamiento: tipo, cantidad, fechas de préstamo y devolución.\n    *   Aula-estudio: fecha, franja horaria y finalidad del uso.\n    *   Tutoría: tema, disponibilidad horaria, modalidad (presencial o virtual).\n*   Visualización del estado de la solicitud: Trazabilidad completa.\n*   Visualización del historial de solicitudes del usuario: Trazabilidad completa.\n*   Panel administrativo para el equipo del laboratorio:\n    *   Listado de solicitudes pendientes, aprobadas y rechazadas.\n    *   Disponibilidad actualizada de equipamiento y del aula.\n    *   Asignación y seguimiento de tutorías.\n*   Sistema de notificaciones: Por email o en la plataforma.\n*   Panel de administración general: Gestión de recursos (altas, bajas, mantenimiento), horarios del aula, asignación de tutores.\n\nExpectativas y prioridades:\n\n*   Que la aplicación resuelva los problemas de gestión actuales.\n*   Que las funcionalidades sean fáciles de usar tanto para estudiantes como para el personal.\n*   Que los paneles de administración sean claros y permitan tener una visión general de la situación.\n*   Que la experiencia del usuario sea ordenada y eficiente.\n\nInformación adicional valiosa extraída de la entrevista:\n\n*   Pedidos especiales: Para tesistas o docentes con proyectos específicos (tiempos de préstamo más flexibles).\n*   Prioridades en la reserva del aula: Materias de proyecto (talleres prácticos), priorizando proyectos de niveles más avanzados (Proyecto 4 > Proyecto 3 > Proyecto 2 > Proyecto 1).\n*   Lista negra: Estudiantes con mal historial en el uso de equipos (consulta con el docente a cargo).\n*   Reglamento interno: Define tiempos de anticipación para los pedidos (48 hs), plazos de préstamo, etc.\n*   Solicitud de equipamiento al reservar el aula: Integrar ambas solicitudes en un mismo proceso.\n*   Tutorías: Presenciales (horarios fijos) o virtuales (a coordinar).\n*   Notificaciones de cancelaciones: A estudiantes, tutores, docentes (si aplica) y personal del laboratorio.\n*   Evaluación de la confiabilidad de los alumnos: Sistema de reporte post-devolución (estados predefinidos: \"todo correcto\", \"con observaciones\" + campo de texto).\n*   Búsquedas: Por material (marca y modelo), fecha. Sugerencia de autocompletado a partir de 3 letras. Tiempo de respuesta menor a 5 segundos (idealmente 3).\n*   Servicios a terceros (futuro): Considerar una sección para solicitudes externas (instituciones, escuelas, etc.).\n*   Integración con CEU Guaraní: Validar a los estudiantes.\n\n¿Te sirve este resumen? ¿Necesitás algo más específico?\n\n**Vos:** Exelente,ahora dame toda tu charla hechas desde tu raiz, todo loq ue te dije y me responfiste en formato chat\n\n**Yo:** ¡Dale, ahí va! Como si estuviéramos charlando ahora mismo:\n\nListo! ¿Algo más que necesites por ahora?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:41:39.936Z"
+      }
+    ]
+  },
+  {
+    "id": "93c7f3a4-2262-4514-9bba-11698dc43d47",
+    "source": "API/Embed",
+    "sessionId": "93c7f3a4-2262-4514-9bba-11698dc43d47",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Hola",
+        "role": "user",
+        "time": "2025-10-27T20:32:20.044Z"
+      },
+      {
+        "content": "¡Hola! Qué bueno que están avanzando con el proyecto. Díganme, ¿en qué puedo serles útil hoy? ¿Tienen alguna duda puntual sobre los servicios del laboratorio o sobre cómo imaginamos la aplicación?\n",
+        "role": "bot",
+        "time": "2025-10-27T20:32:22.116Z"
+      },
+      {
+        "content": "Cual es tu nombre",
+        "role": "user",
+        "time": "2025-10-27T20:32:31.889Z"
+      },
+      {
+        "content": "Natalia, a tu disposición. Soy la directora del Laboratorio de Medios Audiovisuales de la UNTDF. Cualquier cosa que necesiten para el desarrollo del sistema, no duden en preguntar.\n",
+        "role": "bot",
+        "time": "2025-10-27T20:32:33.734Z"
+      },
+      {
+        "content": "Recordás los integrantes del grupo 6?",
+        "role": "user",
+        "time": "2025-10-27T20:33:15.779Z"
+      },
+      {
+        "content": "Mmm, a ver... Siendo sincera, con tantos estudiantes y proyectos a veces me cuesta recordar los nombres de todos los integrantes de cada grupo. Pero no se preocupen, eso no impide que podamos avanzar. Lo importante es que ustedes tengan clara la información y las necesidades del laboratorio. ¿Hay algo específico del grupo 6 que necesiten saber? Tal vez si me dan algún detalle puedo refrescar la memoria.\n",
+        "role": "bot",
+        "time": "2025-10-27T20:33:18.219Z"
+      }
+    ]
+  }
+]
