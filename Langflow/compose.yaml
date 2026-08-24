@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  langflow:
+    image: langflowai/langflow:latest
+    ports:
+      - "17860:7860"
+    environment:
+      - LANGFLOW_HOST=0.0.0.0
+      - LANGFLOW_PORT=7860
+      - LANGFLOW_SUPERUSER=administrator
+      - LANGFLOW_SUPERUSER_PASSWORD=unapasssegura
+
