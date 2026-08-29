@@ -1,13 +1,44 @@
-version: "3.8"
-
 services:
+  langflow_db:
+    container_name: lgf_db
+    image: dhi.io/postgres:18-alpine3.23-dev
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "25432:5432"
+    volumes:
+      - langflow-postgres:/var/lib/postgresql/data
+    networks:
+      - langflow_net
+    hostname: lgf_db
+
   langflow:
-    image: langflowai/langflow:latest
+    container_name: lgf
+    image: langflowai/langflow:latest # or another version tag on https://hub.docker.com/r/langflowai/langflow
+    pull_policy: always               # set to 'always' when using 'latest' image
+    user: root
     ports:
       - "17860:7860"
+    depends_on:
+      - langflow_db
     environment:
-      - LANGFLOW_HOST=0.0.0.0
-      - LANGFLOW_PORT=7860
-      - LANGFLOW_SUPERUSER=administrator
-      - LANGFLOW_SUPERUSER_PASSWORD=unapasssegura
+      - LANGFLOW_DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@lgf_db:5432/${POSTGRES_DB}
+      # This variable defines where the logs, file storage, monitor data and secret keys are stored.
+      - LANGFLOW_CONFIG_DIR=/app/langflow
+      - LANGFLOW_SUPERUSER=${LANGFLOW_SUPERUSER}
+      - LANGFLOW_SUPERUSER_PASSWORD=${LANGFLOW_SUPERUSER_PASSWORD}
+    volumes:
+      - langflow-data:/app/langflow
+    networks: 
+      - langflow_net
+    hostname: lgf
+
+volumes:
+  langflow-postgres:
+  langflow-data:
+
+networks:
+  langflow_net:
 
